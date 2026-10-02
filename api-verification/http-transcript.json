@@ -1,0 +1,5115 @@
+[
+  {
+    "method": "POST",
+    "path": "/api/games",
+    "status": 201,
+    "request": {},
+    "response": {
+      "id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+      "revision": 1,
+      "state": {
+        "deck": [
+          {
+            "id": "denari:1",
+            "suit": "denari",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "denari:2",
+            "suit": "denari",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "denari:3",
+            "suit": "denari",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "denari:4",
+            "suit": "denari",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "denari:5",
+            "suit": "denari",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "denari:6",
+            "suit": "denari",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "denari:7",
+            "suit": "denari",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "denari:8",
+            "suit": "denari",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "denari:9",
+            "suit": "denari",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "denari:10",
+            "suit": "denari",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "coppe:1",
+            "suit": "coppe",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "coppe:2",
+            "suit": "coppe",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "coppe:3",
+            "suit": "coppe",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "coppe:4",
+            "suit": "coppe",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "coppe:5",
+            "suit": "coppe",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "coppe:6",
+            "suit": "coppe",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "coppe:7",
+            "suit": "coppe",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "coppe:8",
+            "suit": "coppe",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "coppe:9",
+            "suit": "coppe",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "coppe:10",
+            "suit": "coppe",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "spade:1",
+            "suit": "spade",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "spade:2",
+            "suit": "spade",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "spade:3",
+            "suit": "spade",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "spade:4",
+            "suit": "spade",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "spade:5",
+            "suit": "spade",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "spade:6",
+            "suit": "spade",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "spade:7",
+            "suit": "spade",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "spade:8",
+            "suit": "spade",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "spade:9",
+            "suit": "spade",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "spade:10",
+            "suit": "spade",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "bastoni:1",
+            "suit": "bastoni",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "bastoni:2",
+            "suit": "bastoni",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "bastoni:3",
+            "suit": "bastoni",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "bastoni:4",
+            "suit": "bastoni",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "bastoni:5",
+            "suit": "bastoni",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "bastoni:6",
+            "suit": "bastoni",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "bastoni:7",
+            "suit": "bastoni",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "bastoni:8",
+            "suit": "bastoni",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "bastoni:9",
+            "suit": "bastoni",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "bastoni:10",
+            "suit": "bastoni",
+            "rank": 10,
+            "value": 10
+          }
+        ],
+        "table_cards": [],
+        "player_hand": [],
+        "opponent_known_cards": [],
+        "played_cards": [],
+        "captured_cards": {
+          "player": [],
+          "opponent": []
+        },
+        "current_player": "player",
+        "turn_number": 0,
+        "round_number": 1,
+        "player_score": 0,
+        "opponent_score": 0,
+        "scopa_count": {
+          "player": 0,
+          "opponent": 0
+        },
+        "game_history": [],
+        "opponent_hand_size": 0,
+        "draw_pile_size": 0,
+        "last_capture_player": null
+      },
+      "has_analysis": false,
+      "has_simulation": false
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/api/games/b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d/state",
+    "status": 200,
+    "request": {
+      "state": {
+        "deck": [
+          {
+            "id": "denari:1",
+            "suit": "denari",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "denari:2",
+            "suit": "denari",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "denari:3",
+            "suit": "denari",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "denari:4",
+            "suit": "denari",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "denari:5",
+            "suit": "denari",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "denari:6",
+            "suit": "denari",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "denari:7",
+            "suit": "denari",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "denari:8",
+            "suit": "denari",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "denari:9",
+            "suit": "denari",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "denari:10",
+            "suit": "denari",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "coppe:1",
+            "suit": "coppe",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "coppe:2",
+            "suit": "coppe",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "coppe:3",
+            "suit": "coppe",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "coppe:4",
+            "suit": "coppe",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "coppe:5",
+            "suit": "coppe",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "coppe:6",
+            "suit": "coppe",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "coppe:7",
+            "suit": "coppe",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "coppe:8",
+            "suit": "coppe",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "coppe:9",
+            "suit": "coppe",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "coppe:10",
+            "suit": "coppe",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "spade:1",
+            "suit": "spade",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "spade:2",
+            "suit": "spade",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "spade:3",
+            "suit": "spade",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "spade:4",
+            "suit": "spade",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "spade:5",
+            "suit": "spade",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "spade:6",
+            "suit": "spade",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "spade:7",
+            "suit": "spade",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "spade:8",
+            "suit": "spade",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "spade:9",
+            "suit": "spade",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "spade:10",
+            "suit": "spade",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "bastoni:1",
+            "suit": "bastoni",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "bastoni:2",
+            "suit": "bastoni",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "bastoni:3",
+            "suit": "bastoni",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "bastoni:4",
+            "suit": "bastoni",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "bastoni:5",
+            "suit": "bastoni",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "bastoni:6",
+            "suit": "bastoni",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "bastoni:7",
+            "suit": "bastoni",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "bastoni:8",
+            "suit": "bastoni",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "bastoni:9",
+            "suit": "bastoni",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "bastoni:10",
+            "suit": "bastoni",
+            "rank": 10,
+            "value": 10
+          }
+        ],
+        "table_cards": [
+          "denari:2",
+          "denari:3"
+        ],
+        "player_hand": [
+          "coppe:4",
+          "coppe:6"
+        ],
+        "opponent_known_cards": [],
+        "played_cards": [],
+        "captured_cards": {
+          "player": [
+            "denari:1",
+            "denari:4",
+            "denari:5",
+            "denari:6",
+            "denari:7",
+            "denari:8",
+            "denari:9",
+            "denari:10",
+            "coppe:1",
+            "coppe:2",
+            "coppe:3",
+            "coppe:5",
+            "coppe:7",
+            "coppe:8",
+            "coppe:9",
+            "coppe:10",
+            "spade:1",
+            "spade:2",
+            "spade:3",
+            "spade:4",
+            "spade:5",
+            "spade:6",
+            "spade:7",
+            "spade:8",
+            "spade:10",
+            "bastoni:1",
+            "bastoni:2",
+            "bastoni:3",
+            "bastoni:4",
+            "bastoni:5",
+            "bastoni:6",
+            "bastoni:7",
+            "bastoni:8",
+            "bastoni:9"
+          ],
+          "opponent": []
+        },
+        "current_player": "player",
+        "turn_number": 0,
+        "round_number": 1,
+        "player_score": 0,
+        "opponent_score": 0,
+        "scopa_count": {
+          "player": 0,
+          "opponent": 0
+        },
+        "opponent_hand_size": 1,
+        "draw_pile_size": 0,
+        "last_capture_player": "player",
+        "game_history": []
+      },
+      "expected_revision": 1
+    },
+    "response": {
+      "id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+      "revision": 2,
+      "state": {
+        "deck": [
+          {
+            "id": "denari:1",
+            "suit": "denari",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "denari:2",
+            "suit": "denari",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "denari:3",
+            "suit": "denari",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "denari:4",
+            "suit": "denari",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "denari:5",
+            "suit": "denari",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "denari:6",
+            "suit": "denari",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "denari:7",
+            "suit": "denari",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "denari:8",
+            "suit": "denari",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "denari:9",
+            "suit": "denari",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "denari:10",
+            "suit": "denari",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "coppe:1",
+            "suit": "coppe",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "coppe:2",
+            "suit": "coppe",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "coppe:3",
+            "suit": "coppe",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "coppe:4",
+            "suit": "coppe",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "coppe:5",
+            "suit": "coppe",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "coppe:6",
+            "suit": "coppe",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "coppe:7",
+            "suit": "coppe",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "coppe:8",
+            "suit": "coppe",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "coppe:9",
+            "suit": "coppe",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "coppe:10",
+            "suit": "coppe",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "spade:1",
+            "suit": "spade",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "spade:2",
+            "suit": "spade",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "spade:3",
+            "suit": "spade",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "spade:4",
+            "suit": "spade",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "spade:5",
+            "suit": "spade",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "spade:6",
+            "suit": "spade",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "spade:7",
+            "suit": "spade",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "spade:8",
+            "suit": "spade",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "spade:9",
+            "suit": "spade",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "spade:10",
+            "suit": "spade",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "bastoni:1",
+            "suit": "bastoni",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "bastoni:2",
+            "suit": "bastoni",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "bastoni:3",
+            "suit": "bastoni",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "bastoni:4",
+            "suit": "bastoni",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "bastoni:5",
+            "suit": "bastoni",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "bastoni:6",
+            "suit": "bastoni",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "bastoni:7",
+            "suit": "bastoni",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "bastoni:8",
+            "suit": "bastoni",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "bastoni:9",
+            "suit": "bastoni",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "bastoni:10",
+            "suit": "bastoni",
+            "rank": 10,
+            "value": 10
+          }
+        ],
+        "table_cards": [
+          "denari:2",
+          "denari:3"
+        ],
+        "player_hand": [
+          "coppe:4",
+          "coppe:6"
+        ],
+        "opponent_known_cards": [],
+        "played_cards": [],
+        "captured_cards": {
+          "player": [
+            "denari:1",
+            "denari:4",
+            "denari:5",
+            "denari:6",
+            "denari:7",
+            "denari:8",
+            "denari:9",
+            "denari:10",
+            "coppe:1",
+            "coppe:2",
+            "coppe:3",
+            "coppe:5",
+            "coppe:7",
+            "coppe:8",
+            "coppe:9",
+            "coppe:10",
+            "spade:1",
+            "spade:2",
+            "spade:3",
+            "spade:4",
+            "spade:5",
+            "spade:6",
+            "spade:7",
+            "spade:8",
+            "spade:10",
+            "bastoni:1",
+            "bastoni:2",
+            "bastoni:3",
+            "bastoni:4",
+            "bastoni:5",
+            "bastoni:6",
+            "bastoni:7",
+            "bastoni:8",
+            "bastoni:9"
+          ],
+          "opponent": []
+        },
+        "current_player": "player",
+        "turn_number": 0,
+        "round_number": 1,
+        "player_score": 0,
+        "opponent_score": 0,
+        "scopa_count": {
+          "player": 0,
+          "opponent": 0
+        },
+        "game_history": [],
+        "opponent_hand_size": 1,
+        "draw_pile_size": 0,
+        "last_capture_player": "player"
+      },
+      "has_analysis": false,
+      "has_simulation": false
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/api/games/b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+    "status": 200,
+    "request": null,
+    "response": {
+      "id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+      "revision": 2,
+      "state": {
+        "deck": [
+          {
+            "id": "denari:1",
+            "suit": "denari",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "denari:2",
+            "suit": "denari",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "denari:3",
+            "suit": "denari",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "denari:4",
+            "suit": "denari",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "denari:5",
+            "suit": "denari",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "denari:6",
+            "suit": "denari",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "denari:7",
+            "suit": "denari",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "denari:8",
+            "suit": "denari",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "denari:9",
+            "suit": "denari",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "denari:10",
+            "suit": "denari",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "coppe:1",
+            "suit": "coppe",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "coppe:2",
+            "suit": "coppe",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "coppe:3",
+            "suit": "coppe",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "coppe:4",
+            "suit": "coppe",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "coppe:5",
+            "suit": "coppe",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "coppe:6",
+            "suit": "coppe",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "coppe:7",
+            "suit": "coppe",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "coppe:8",
+            "suit": "coppe",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "coppe:9",
+            "suit": "coppe",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "coppe:10",
+            "suit": "coppe",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "spade:1",
+            "suit": "spade",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "spade:2",
+            "suit": "spade",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "spade:3",
+            "suit": "spade",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "spade:4",
+            "suit": "spade",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "spade:5",
+            "suit": "spade",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "spade:6",
+            "suit": "spade",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "spade:7",
+            "suit": "spade",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "spade:8",
+            "suit": "spade",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "spade:9",
+            "suit": "spade",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "spade:10",
+            "suit": "spade",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "bastoni:1",
+            "suit": "bastoni",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "bastoni:2",
+            "suit": "bastoni",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "bastoni:3",
+            "suit": "bastoni",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "bastoni:4",
+            "suit": "bastoni",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "bastoni:5",
+            "suit": "bastoni",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "bastoni:6",
+            "suit": "bastoni",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "bastoni:7",
+            "suit": "bastoni",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "bastoni:8",
+            "suit": "bastoni",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "bastoni:9",
+            "suit": "bastoni",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "bastoni:10",
+            "suit": "bastoni",
+            "rank": 10,
+            "value": 10
+          }
+        ],
+        "table_cards": [
+          "denari:2",
+          "denari:3"
+        ],
+        "player_hand": [
+          "coppe:4",
+          "coppe:6"
+        ],
+        "opponent_known_cards": [],
+        "played_cards": [],
+        "captured_cards": {
+          "player": [
+            "denari:1",
+            "denari:4",
+            "denari:5",
+            "denari:6",
+            "denari:7",
+            "denari:8",
+            "denari:9",
+            "denari:10",
+            "coppe:1",
+            "coppe:2",
+            "coppe:3",
+            "coppe:5",
+            "coppe:7",
+            "coppe:8",
+            "coppe:9",
+            "coppe:10",
+            "spade:1",
+            "spade:2",
+            "spade:3",
+            "spade:4",
+            "spade:5",
+            "spade:6",
+            "spade:7",
+            "spade:8",
+            "spade:10",
+            "bastoni:1",
+            "bastoni:2",
+            "bastoni:3",
+            "bastoni:4",
+            "bastoni:5",
+            "bastoni:6",
+            "bastoni:7",
+            "bastoni:8",
+            "bastoni:9"
+          ],
+          "opponent": []
+        },
+        "current_player": "player",
+        "turn_number": 0,
+        "round_number": 1,
+        "player_score": 0,
+        "opponent_score": 0,
+        "scopa_count": {
+          "player": 0,
+          "opponent": 0
+        },
+        "game_history": [],
+        "opponent_hand_size": 1,
+        "draw_pile_size": 0,
+        "last_capture_player": "player"
+      },
+      "has_analysis": false,
+      "has_simulation": false
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/api/games/b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d/analyze",
+    "status": 200,
+    "request": {
+      "max_depth": 2,
+      "probability_method": "exact"
+    },
+    "response": {
+      "game_id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+      "state_revision": 2,
+      "status": "analyzed",
+      "all_moves": [
+        {
+          "move": {
+            "played_card": {
+              "id": "coppe:4",
+              "suit": "coppe",
+              "rank": 4,
+              "value": 4
+            },
+            "captured_cards": [],
+            "actor": "player",
+            "capture_type": "none",
+            "creates_scopa": false,
+            "immediate_score": 0,
+            "resulting_state": {
+              "deck": [
+                {
+                  "id": "denari:1",
+                  "suit": "denari",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "denari:2",
+                  "suit": "denari",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "denari:3",
+                  "suit": "denari",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "denari:4",
+                  "suit": "denari",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "denari:5",
+                  "suit": "denari",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "denari:6",
+                  "suit": "denari",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "denari:7",
+                  "suit": "denari",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "denari:8",
+                  "suit": "denari",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "denari:9",
+                  "suit": "denari",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "denari:10",
+                  "suit": "denari",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "coppe:1",
+                  "suit": "coppe",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "coppe:2",
+                  "suit": "coppe",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "coppe:3",
+                  "suit": "coppe",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "coppe:4",
+                  "suit": "coppe",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "coppe:5",
+                  "suit": "coppe",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "coppe:6",
+                  "suit": "coppe",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "coppe:7",
+                  "suit": "coppe",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "coppe:8",
+                  "suit": "coppe",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "coppe:9",
+                  "suit": "coppe",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "coppe:10",
+                  "suit": "coppe",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "spade:1",
+                  "suit": "spade",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "spade:2",
+                  "suit": "spade",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "spade:3",
+                  "suit": "spade",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "spade:4",
+                  "suit": "spade",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "spade:5",
+                  "suit": "spade",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "spade:6",
+                  "suit": "spade",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "spade:7",
+                  "suit": "spade",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "spade:8",
+                  "suit": "spade",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "spade:9",
+                  "suit": "spade",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "spade:10",
+                  "suit": "spade",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "bastoni:1",
+                  "suit": "bastoni",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "bastoni:2",
+                  "suit": "bastoni",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "bastoni:3",
+                  "suit": "bastoni",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "bastoni:4",
+                  "suit": "bastoni",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "bastoni:5",
+                  "suit": "bastoni",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "bastoni:6",
+                  "suit": "bastoni",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "bastoni:7",
+                  "suit": "bastoni",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "bastoni:8",
+                  "suit": "bastoni",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "bastoni:9",
+                  "suit": "bastoni",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "bastoni:10",
+                  "suit": "bastoni",
+                  "rank": 10,
+                  "value": 10
+                }
+              ],
+              "table_cards": [
+                "denari:2",
+                "denari:3",
+                "coppe:4"
+              ],
+              "player_hand": [
+                "coppe:6"
+              ],
+              "opponent_known_cards": [],
+              "played_cards": [
+                "coppe:4"
+              ],
+              "captured_cards": {
+                "player": [
+                  "denari:1",
+                  "denari:4",
+                  "denari:5",
+                  "denari:6",
+                  "denari:7",
+                  "denari:8",
+                  "denari:9",
+                  "denari:10",
+                  "coppe:1",
+                  "coppe:2",
+                  "coppe:3",
+                  "coppe:5",
+                  "coppe:7",
+                  "coppe:8",
+                  "coppe:9",
+                  "coppe:10",
+                  "spade:1",
+                  "spade:2",
+                  "spade:3",
+                  "spade:4",
+                  "spade:5",
+                  "spade:6",
+                  "spade:7",
+                  "spade:8",
+                  "spade:10",
+                  "bastoni:1",
+                  "bastoni:2",
+                  "bastoni:3",
+                  "bastoni:4",
+                  "bastoni:5",
+                  "bastoni:6",
+                  "bastoni:7",
+                  "bastoni:8",
+                  "bastoni:9"
+                ],
+                "opponent": []
+              },
+              "current_player": "opponent",
+              "turn_number": 1,
+              "round_number": 1,
+              "player_score": 0,
+              "opponent_score": 0,
+              "scopa_count": {
+                "player": 0,
+                "opponent": 0
+              },
+              "game_history": [
+                {
+                  "turn_number": 1,
+                  "actor": "player",
+                  "played_card": "coppe:4",
+                  "captured_cards": []
+                }
+              ],
+              "opponent_hand_size": 1,
+              "draw_pile_size": 0,
+              "last_capture_player": "player"
+            }
+          },
+          "node_id": 1,
+          "evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 73,
+              "denominator": 20
+            }
+          },
+          "expected_evaluation": {
+            "source": "expected_heuristic",
+            "captured_cards": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "scopa": {
+              "numerator": -1,
+              "denominator": 2
+            },
+            "denari": {
+              "numerator": 7,
+              "denominator": 10
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 131,
+              "denominator": 168
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 467,
+              "denominator": 168
+            }
+          },
+          "expected_value": {
+            "numerator": 467,
+            "denominator": 168
+          },
+          "player_expected_value": {
+            "numerator": 73,
+            "denominator": 20
+          },
+          "opponent_expected_value": {
+            "numerator": 731,
+            "denominator": 840
+          },
+          "scopa_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "opponent_scopa_probability": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "expected_scopa_count": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "primiera_value": {
+            "numerator": 84,
+            "denominator": 1
+          },
+          "opponent_primiera_value": {
+            "numerator": 37,
+            "denominator": 2
+          },
+          "primiera_eligible_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "expected_captured_cards": {
+            "numerator": 34,
+            "denominator": 1
+          },
+          "terminal_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "outcomes": [
+            {
+              "node_id": 2,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 0,
+                  "denominator": 1
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 0,
+              "primiera_value": 84,
+              "opponent_primiera_value": 0,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 0
+            },
+            {
+              "node_id": 3,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 1,
+                  "denominator": 10
+                },
+                "scopa": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 1,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 37,
+                  "denominator": 84
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 731,
+                  "denominator": 420
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 1,
+              "primiera_value": 84,
+              "opponent_primiera_value": 37,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 4
+            }
+          ]
+        },
+        {
+          "move": {
+            "played_card": {
+              "id": "coppe:6",
+              "suit": "coppe",
+              "rank": 6,
+              "value": 6
+            },
+            "captured_cards": [],
+            "actor": "player",
+            "capture_type": "none",
+            "creates_scopa": false,
+            "immediate_score": 0,
+            "resulting_state": {
+              "deck": [
+                {
+                  "id": "denari:1",
+                  "suit": "denari",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "denari:2",
+                  "suit": "denari",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "denari:3",
+                  "suit": "denari",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "denari:4",
+                  "suit": "denari",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "denari:5",
+                  "suit": "denari",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "denari:6",
+                  "suit": "denari",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "denari:7",
+                  "suit": "denari",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "denari:8",
+                  "suit": "denari",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "denari:9",
+                  "suit": "denari",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "denari:10",
+                  "suit": "denari",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "coppe:1",
+                  "suit": "coppe",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "coppe:2",
+                  "suit": "coppe",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "coppe:3",
+                  "suit": "coppe",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "coppe:4",
+                  "suit": "coppe",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "coppe:5",
+                  "suit": "coppe",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "coppe:6",
+                  "suit": "coppe",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "coppe:7",
+                  "suit": "coppe",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "coppe:8",
+                  "suit": "coppe",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "coppe:9",
+                  "suit": "coppe",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "coppe:10",
+                  "suit": "coppe",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "spade:1",
+                  "suit": "spade",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "spade:2",
+                  "suit": "spade",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "spade:3",
+                  "suit": "spade",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "spade:4",
+                  "suit": "spade",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "spade:5",
+                  "suit": "spade",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "spade:6",
+                  "suit": "spade",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "spade:7",
+                  "suit": "spade",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "spade:8",
+                  "suit": "spade",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "spade:9",
+                  "suit": "spade",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "spade:10",
+                  "suit": "spade",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "bastoni:1",
+                  "suit": "bastoni",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "bastoni:2",
+                  "suit": "bastoni",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "bastoni:3",
+                  "suit": "bastoni",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "bastoni:4",
+                  "suit": "bastoni",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "bastoni:5",
+                  "suit": "bastoni",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "bastoni:6",
+                  "suit": "bastoni",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "bastoni:7",
+                  "suit": "bastoni",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "bastoni:8",
+                  "suit": "bastoni",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "bastoni:9",
+                  "suit": "bastoni",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "bastoni:10",
+                  "suit": "bastoni",
+                  "rank": 10,
+                  "value": 10
+                }
+              ],
+              "table_cards": [
+                "denari:2",
+                "denari:3",
+                "coppe:6"
+              ],
+              "player_hand": [
+                "coppe:4"
+              ],
+              "opponent_known_cards": [],
+              "played_cards": [
+                "coppe:6"
+              ],
+              "captured_cards": {
+                "player": [
+                  "denari:1",
+                  "denari:4",
+                  "denari:5",
+                  "denari:6",
+                  "denari:7",
+                  "denari:8",
+                  "denari:9",
+                  "denari:10",
+                  "coppe:1",
+                  "coppe:2",
+                  "coppe:3",
+                  "coppe:5",
+                  "coppe:7",
+                  "coppe:8",
+                  "coppe:9",
+                  "coppe:10",
+                  "spade:1",
+                  "spade:2",
+                  "spade:3",
+                  "spade:4",
+                  "spade:5",
+                  "spade:6",
+                  "spade:7",
+                  "spade:8",
+                  "spade:10",
+                  "bastoni:1",
+                  "bastoni:2",
+                  "bastoni:3",
+                  "bastoni:4",
+                  "bastoni:5",
+                  "bastoni:6",
+                  "bastoni:7",
+                  "bastoni:8",
+                  "bastoni:9"
+                ],
+                "opponent": []
+              },
+              "current_player": "opponent",
+              "turn_number": 1,
+              "round_number": 1,
+              "player_score": 0,
+              "opponent_score": 0,
+              "scopa_count": {
+                "player": 0,
+                "opponent": 0
+              },
+              "game_history": [
+                {
+                  "turn_number": 1,
+                  "actor": "player",
+                  "played_card": "coppe:6",
+                  "captured_cards": []
+                }
+              ],
+              "opponent_hand_size": 1,
+              "draw_pile_size": 0,
+              "last_capture_player": "player"
+            }
+          },
+          "node_id": 4,
+          "evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 73,
+              "denominator": 20
+            }
+          },
+          "expected_evaluation": {
+            "source": "expected_heuristic",
+            "captured_cards": {
+              "numerator": 13,
+              "denominator": 16
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 3,
+              "denominator": 4
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 127,
+              "denominator": 168
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 1115,
+              "denominator": 336
+            }
+          },
+          "expected_value": {
+            "numerator": 1115,
+            "denominator": 336
+          },
+          "player_expected_value": {
+            "numerator": 73,
+            "denominator": 20
+          },
+          "opponent_expected_value": {
+            "numerator": 557,
+            "denominator": 1680
+          },
+          "scopa_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "opponent_scopa_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "expected_scopa_count": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "primiera_value": {
+            "numerator": 84,
+            "denominator": 1
+          },
+          "opponent_primiera_value": {
+            "numerator": 41,
+            "denominator": 2
+          },
+          "primiera_eligible_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "expected_captured_cards": {
+            "numerator": 34,
+            "denominator": 1
+          },
+          "terminal_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "outcomes": [
+            {
+              "node_id": 5,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 0,
+                  "denominator": 1
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 0,
+              "primiera_value": 84,
+              "opponent_primiera_value": 0,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 0
+            },
+            {
+              "node_id": 6,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 3,
+                  "denominator": 40
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 1,
+                  "denominator": 10
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 41,
+                  "denominator": 84
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 557,
+                  "denominator": 840
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 0,
+              "primiera_value": 84,
+              "opponent_primiera_value": 41,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 3
+            }
+          ]
+        }
+      ],
+      "recommended_move": {
+        "played_card": {
+          "id": "coppe:6",
+          "suit": "coppe",
+          "rank": 6,
+          "value": 6
+        },
+        "captured_cards": [],
+        "actor": "player",
+        "capture_type": "none",
+        "creates_scopa": false,
+        "immediate_score": 0,
+        "resulting_state": {
+          "deck": [
+            {
+              "id": "denari:1",
+              "suit": "denari",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "denari:2",
+              "suit": "denari",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "denari:3",
+              "suit": "denari",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "denari:4",
+              "suit": "denari",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "denari:5",
+              "suit": "denari",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "denari:6",
+              "suit": "denari",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "denari:7",
+              "suit": "denari",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "denari:8",
+              "suit": "denari",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "denari:9",
+              "suit": "denari",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "denari:10",
+              "suit": "denari",
+              "rank": 10,
+              "value": 10
+            },
+            {
+              "id": "coppe:1",
+              "suit": "coppe",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "coppe:2",
+              "suit": "coppe",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "coppe:3",
+              "suit": "coppe",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "coppe:4",
+              "suit": "coppe",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "coppe:5",
+              "suit": "coppe",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "coppe:6",
+              "suit": "coppe",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "coppe:7",
+              "suit": "coppe",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "coppe:8",
+              "suit": "coppe",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "coppe:9",
+              "suit": "coppe",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "coppe:10",
+              "suit": "coppe",
+              "rank": 10,
+              "value": 10
+            },
+            {
+              "id": "spade:1",
+              "suit": "spade",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "spade:2",
+              "suit": "spade",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "spade:3",
+              "suit": "spade",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "spade:4",
+              "suit": "spade",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "spade:5",
+              "suit": "spade",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "spade:6",
+              "suit": "spade",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "spade:7",
+              "suit": "spade",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "spade:8",
+              "suit": "spade",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "spade:9",
+              "suit": "spade",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "spade:10",
+              "suit": "spade",
+              "rank": 10,
+              "value": 10
+            },
+            {
+              "id": "bastoni:1",
+              "suit": "bastoni",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "bastoni:2",
+              "suit": "bastoni",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "bastoni:3",
+              "suit": "bastoni",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "bastoni:4",
+              "suit": "bastoni",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "bastoni:5",
+              "suit": "bastoni",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "bastoni:6",
+              "suit": "bastoni",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "bastoni:7",
+              "suit": "bastoni",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "bastoni:8",
+              "suit": "bastoni",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "bastoni:9",
+              "suit": "bastoni",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "bastoni:10",
+              "suit": "bastoni",
+              "rank": 10,
+              "value": 10
+            }
+          ],
+          "table_cards": [
+            "denari:2",
+            "denari:3",
+            "coppe:6"
+          ],
+          "player_hand": [
+            "coppe:4"
+          ],
+          "opponent_known_cards": [],
+          "played_cards": [
+            "coppe:6"
+          ],
+          "captured_cards": {
+            "player": [
+              "denari:1",
+              "denari:4",
+              "denari:5",
+              "denari:6",
+              "denari:7",
+              "denari:8",
+              "denari:9",
+              "denari:10",
+              "coppe:1",
+              "coppe:2",
+              "coppe:3",
+              "coppe:5",
+              "coppe:7",
+              "coppe:8",
+              "coppe:9",
+              "coppe:10",
+              "spade:1",
+              "spade:2",
+              "spade:3",
+              "spade:4",
+              "spade:5",
+              "spade:6",
+              "spade:7",
+              "spade:8",
+              "spade:10",
+              "bastoni:1",
+              "bastoni:2",
+              "bastoni:3",
+              "bastoni:4",
+              "bastoni:5",
+              "bastoni:6",
+              "bastoni:7",
+              "bastoni:8",
+              "bastoni:9"
+            ],
+            "opponent": []
+          },
+          "current_player": "opponent",
+          "turn_number": 1,
+          "round_number": 1,
+          "player_score": 0,
+          "opponent_score": 0,
+          "scopa_count": {
+            "player": 0,
+            "opponent": 0
+          },
+          "game_history": [
+            {
+              "turn_number": 1,
+              "actor": "player",
+              "played_card": "coppe:6",
+              "captured_cards": []
+            }
+          ],
+          "opponent_hand_size": 1,
+          "draw_pile_size": 0,
+          "last_capture_player": "player"
+        }
+      },
+      "expected_value": {
+        "numerator": 1115,
+        "denominator": 336
+      },
+      "scopa_probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "primiera_value": {
+        "numerator": 84,
+        "denominator": 1
+      },
+      "sette_bello_value": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "opponent_expected_value": {
+        "numerator": 557,
+        "denominator": 1680
+      },
+      "probabilities": {
+        "method": "exact",
+        "exact": true,
+        "seed": null,
+        "sample_count": null,
+        "world_count": 2,
+        "known_cards": [
+          "bastoni:1",
+          "bastoni:2",
+          "bastoni:3",
+          "bastoni:4",
+          "bastoni:5",
+          "bastoni:6",
+          "bastoni:7",
+          "bastoni:8",
+          "bastoni:9",
+          "coppe:1",
+          "coppe:10",
+          "coppe:2",
+          "coppe:3",
+          "coppe:4",
+          "coppe:5",
+          "coppe:6",
+          "coppe:7",
+          "coppe:8",
+          "coppe:9",
+          "denari:1",
+          "denari:10",
+          "denari:2",
+          "denari:3",
+          "denari:4",
+          "denari:5",
+          "denari:6",
+          "denari:7",
+          "denari:8",
+          "denari:9",
+          "spade:1",
+          "spade:10",
+          "spade:2",
+          "spade:3",
+          "spade:4",
+          "spade:5",
+          "spade:6",
+          "spade:7",
+          "spade:8"
+        ],
+        "unknown_cards": [
+          "bastoni:10",
+          "spade:9"
+        ]
+      },
+      "search_depth": 2,
+      "reached_depth": 2,
+      "explored_states": 7,
+      "calculation_time_seconds": 0.009505400004854891
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/api/games/b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d/analysis",
+    "status": 200,
+    "request": null,
+    "response": {
+      "game_id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+      "state_revision": 2,
+      "status": "analyzed",
+      "all_moves": [
+        {
+          "move": {
+            "played_card": {
+              "id": "coppe:4",
+              "suit": "coppe",
+              "rank": 4,
+              "value": 4
+            },
+            "captured_cards": [],
+            "actor": "player",
+            "capture_type": "none",
+            "creates_scopa": false,
+            "immediate_score": 0,
+            "resulting_state": {
+              "deck": [
+                {
+                  "id": "denari:1",
+                  "suit": "denari",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "denari:2",
+                  "suit": "denari",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "denari:3",
+                  "suit": "denari",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "denari:4",
+                  "suit": "denari",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "denari:5",
+                  "suit": "denari",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "denari:6",
+                  "suit": "denari",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "denari:7",
+                  "suit": "denari",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "denari:8",
+                  "suit": "denari",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "denari:9",
+                  "suit": "denari",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "denari:10",
+                  "suit": "denari",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "coppe:1",
+                  "suit": "coppe",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "coppe:2",
+                  "suit": "coppe",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "coppe:3",
+                  "suit": "coppe",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "coppe:4",
+                  "suit": "coppe",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "coppe:5",
+                  "suit": "coppe",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "coppe:6",
+                  "suit": "coppe",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "coppe:7",
+                  "suit": "coppe",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "coppe:8",
+                  "suit": "coppe",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "coppe:9",
+                  "suit": "coppe",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "coppe:10",
+                  "suit": "coppe",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "spade:1",
+                  "suit": "spade",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "spade:2",
+                  "suit": "spade",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "spade:3",
+                  "suit": "spade",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "spade:4",
+                  "suit": "spade",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "spade:5",
+                  "suit": "spade",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "spade:6",
+                  "suit": "spade",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "spade:7",
+                  "suit": "spade",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "spade:8",
+                  "suit": "spade",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "spade:9",
+                  "suit": "spade",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "spade:10",
+                  "suit": "spade",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "bastoni:1",
+                  "suit": "bastoni",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "bastoni:2",
+                  "suit": "bastoni",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "bastoni:3",
+                  "suit": "bastoni",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "bastoni:4",
+                  "suit": "bastoni",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "bastoni:5",
+                  "suit": "bastoni",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "bastoni:6",
+                  "suit": "bastoni",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "bastoni:7",
+                  "suit": "bastoni",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "bastoni:8",
+                  "suit": "bastoni",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "bastoni:9",
+                  "suit": "bastoni",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "bastoni:10",
+                  "suit": "bastoni",
+                  "rank": 10,
+                  "value": 10
+                }
+              ],
+              "table_cards": [
+                "denari:2",
+                "denari:3",
+                "coppe:4"
+              ],
+              "player_hand": [
+                "coppe:6"
+              ],
+              "opponent_known_cards": [],
+              "played_cards": [
+                "coppe:4"
+              ],
+              "captured_cards": {
+                "player": [
+                  "denari:1",
+                  "denari:4",
+                  "denari:5",
+                  "denari:6",
+                  "denari:7",
+                  "denari:8",
+                  "denari:9",
+                  "denari:10",
+                  "coppe:1",
+                  "coppe:2",
+                  "coppe:3",
+                  "coppe:5",
+                  "coppe:7",
+                  "coppe:8",
+                  "coppe:9",
+                  "coppe:10",
+                  "spade:1",
+                  "spade:2",
+                  "spade:3",
+                  "spade:4",
+                  "spade:5",
+                  "spade:6",
+                  "spade:7",
+                  "spade:8",
+                  "spade:10",
+                  "bastoni:1",
+                  "bastoni:2",
+                  "bastoni:3",
+                  "bastoni:4",
+                  "bastoni:5",
+                  "bastoni:6",
+                  "bastoni:7",
+                  "bastoni:8",
+                  "bastoni:9"
+                ],
+                "opponent": []
+              },
+              "current_player": "opponent",
+              "turn_number": 1,
+              "round_number": 1,
+              "player_score": 0,
+              "opponent_score": 0,
+              "scopa_count": {
+                "player": 0,
+                "opponent": 0
+              },
+              "game_history": [
+                {
+                  "turn_number": 1,
+                  "actor": "player",
+                  "played_card": "coppe:4",
+                  "captured_cards": []
+                }
+              ],
+              "opponent_hand_size": 1,
+              "draw_pile_size": 0,
+              "last_capture_player": "player"
+            }
+          },
+          "node_id": 1,
+          "evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 73,
+              "denominator": 20
+            }
+          },
+          "expected_evaluation": {
+            "source": "expected_heuristic",
+            "captured_cards": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "scopa": {
+              "numerator": -1,
+              "denominator": 2
+            },
+            "denari": {
+              "numerator": 7,
+              "denominator": 10
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 131,
+              "denominator": 168
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 467,
+              "denominator": 168
+            }
+          },
+          "expected_value": {
+            "numerator": 467,
+            "denominator": 168
+          },
+          "player_expected_value": {
+            "numerator": 73,
+            "denominator": 20
+          },
+          "opponent_expected_value": {
+            "numerator": 731,
+            "denominator": 840
+          },
+          "scopa_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "opponent_scopa_probability": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "expected_scopa_count": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "primiera_value": {
+            "numerator": 84,
+            "denominator": 1
+          },
+          "opponent_primiera_value": {
+            "numerator": 37,
+            "denominator": 2
+          },
+          "primiera_eligible_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "expected_captured_cards": {
+            "numerator": 34,
+            "denominator": 1
+          },
+          "terminal_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "outcomes": [
+            {
+              "node_id": 2,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 0,
+                  "denominator": 1
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 0,
+              "primiera_value": 84,
+              "opponent_primiera_value": 0,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 0
+            },
+            {
+              "node_id": 3,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 1,
+                  "denominator": 10
+                },
+                "scopa": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 1,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 37,
+                  "denominator": 84
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 731,
+                  "denominator": 420
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 1,
+              "primiera_value": 84,
+              "opponent_primiera_value": 37,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 4
+            }
+          ]
+        },
+        {
+          "move": {
+            "played_card": {
+              "id": "coppe:6",
+              "suit": "coppe",
+              "rank": 6,
+              "value": 6
+            },
+            "captured_cards": [],
+            "actor": "player",
+            "capture_type": "none",
+            "creates_scopa": false,
+            "immediate_score": 0,
+            "resulting_state": {
+              "deck": [
+                {
+                  "id": "denari:1",
+                  "suit": "denari",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "denari:2",
+                  "suit": "denari",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "denari:3",
+                  "suit": "denari",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "denari:4",
+                  "suit": "denari",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "denari:5",
+                  "suit": "denari",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "denari:6",
+                  "suit": "denari",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "denari:7",
+                  "suit": "denari",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "denari:8",
+                  "suit": "denari",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "denari:9",
+                  "suit": "denari",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "denari:10",
+                  "suit": "denari",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "coppe:1",
+                  "suit": "coppe",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "coppe:2",
+                  "suit": "coppe",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "coppe:3",
+                  "suit": "coppe",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "coppe:4",
+                  "suit": "coppe",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "coppe:5",
+                  "suit": "coppe",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "coppe:6",
+                  "suit": "coppe",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "coppe:7",
+                  "suit": "coppe",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "coppe:8",
+                  "suit": "coppe",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "coppe:9",
+                  "suit": "coppe",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "coppe:10",
+                  "suit": "coppe",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "spade:1",
+                  "suit": "spade",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "spade:2",
+                  "suit": "spade",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "spade:3",
+                  "suit": "spade",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "spade:4",
+                  "suit": "spade",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "spade:5",
+                  "suit": "spade",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "spade:6",
+                  "suit": "spade",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "spade:7",
+                  "suit": "spade",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "spade:8",
+                  "suit": "spade",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "spade:9",
+                  "suit": "spade",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "spade:10",
+                  "suit": "spade",
+                  "rank": 10,
+                  "value": 10
+                },
+                {
+                  "id": "bastoni:1",
+                  "suit": "bastoni",
+                  "rank": 1,
+                  "value": 1
+                },
+                {
+                  "id": "bastoni:2",
+                  "suit": "bastoni",
+                  "rank": 2,
+                  "value": 2
+                },
+                {
+                  "id": "bastoni:3",
+                  "suit": "bastoni",
+                  "rank": 3,
+                  "value": 3
+                },
+                {
+                  "id": "bastoni:4",
+                  "suit": "bastoni",
+                  "rank": 4,
+                  "value": 4
+                },
+                {
+                  "id": "bastoni:5",
+                  "suit": "bastoni",
+                  "rank": 5,
+                  "value": 5
+                },
+                {
+                  "id": "bastoni:6",
+                  "suit": "bastoni",
+                  "rank": 6,
+                  "value": 6
+                },
+                {
+                  "id": "bastoni:7",
+                  "suit": "bastoni",
+                  "rank": 7,
+                  "value": 7
+                },
+                {
+                  "id": "bastoni:8",
+                  "suit": "bastoni",
+                  "rank": 8,
+                  "value": 8
+                },
+                {
+                  "id": "bastoni:9",
+                  "suit": "bastoni",
+                  "rank": 9,
+                  "value": 9
+                },
+                {
+                  "id": "bastoni:10",
+                  "suit": "bastoni",
+                  "rank": 10,
+                  "value": 10
+                }
+              ],
+              "table_cards": [
+                "denari:2",
+                "denari:3",
+                "coppe:6"
+              ],
+              "player_hand": [
+                "coppe:4"
+              ],
+              "opponent_known_cards": [],
+              "played_cards": [
+                "coppe:6"
+              ],
+              "captured_cards": {
+                "player": [
+                  "denari:1",
+                  "denari:4",
+                  "denari:5",
+                  "denari:6",
+                  "denari:7",
+                  "denari:8",
+                  "denari:9",
+                  "denari:10",
+                  "coppe:1",
+                  "coppe:2",
+                  "coppe:3",
+                  "coppe:5",
+                  "coppe:7",
+                  "coppe:8",
+                  "coppe:9",
+                  "coppe:10",
+                  "spade:1",
+                  "spade:2",
+                  "spade:3",
+                  "spade:4",
+                  "spade:5",
+                  "spade:6",
+                  "spade:7",
+                  "spade:8",
+                  "spade:10",
+                  "bastoni:1",
+                  "bastoni:2",
+                  "bastoni:3",
+                  "bastoni:4",
+                  "bastoni:5",
+                  "bastoni:6",
+                  "bastoni:7",
+                  "bastoni:8",
+                  "bastoni:9"
+                ],
+                "opponent": []
+              },
+              "current_player": "opponent",
+              "turn_number": 1,
+              "round_number": 1,
+              "player_score": 0,
+              "opponent_score": 0,
+              "scopa_count": {
+                "player": 0,
+                "opponent": 0
+              },
+              "game_history": [
+                {
+                  "turn_number": 1,
+                  "actor": "player",
+                  "played_card": "coppe:6",
+                  "captured_cards": []
+                }
+              ],
+              "opponent_hand_size": 1,
+              "draw_pile_size": 0,
+              "last_capture_player": "player"
+            }
+          },
+          "node_id": 4,
+          "evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 73,
+              "denominator": 20
+            }
+          },
+          "expected_evaluation": {
+            "source": "expected_heuristic",
+            "captured_cards": {
+              "numerator": 13,
+              "denominator": 16
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 3,
+              "denominator": 4
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 127,
+              "denominator": 168
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "total": {
+              "numerator": 1115,
+              "denominator": 336
+            }
+          },
+          "expected_value": {
+            "numerator": 1115,
+            "denominator": 336
+          },
+          "player_expected_value": {
+            "numerator": 73,
+            "denominator": 20
+          },
+          "opponent_expected_value": {
+            "numerator": 557,
+            "denominator": 1680
+          },
+          "scopa_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "opponent_scopa_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "expected_scopa_count": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "primiera_value": {
+            "numerator": 84,
+            "denominator": 1
+          },
+          "opponent_primiera_value": {
+            "numerator": 41,
+            "denominator": 2
+          },
+          "primiera_eligible_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_value": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sette_bello_probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "expected_captured_cards": {
+            "numerator": 34,
+            "denominator": 1
+          },
+          "terminal_probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "outcomes": [
+            {
+              "node_id": 5,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 0,
+                  "denominator": 1
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 0,
+              "primiera_value": 84,
+              "opponent_primiera_value": 0,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 0
+            },
+            {
+              "node_id": 6,
+              "probability": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "player_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 17,
+                  "denominator": 20
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 4,
+                  "denominator": 5
+                },
+                "sette_bello": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 1,
+                  "denominator": 1
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 73,
+                  "denominator": 20
+                }
+              },
+              "opponent_evaluation": {
+                "source": "heuristic",
+                "captured_cards": {
+                  "numerator": 3,
+                  "denominator": 40
+                },
+                "scopa": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "denari": {
+                  "numerator": 1,
+                  "denominator": 10
+                },
+                "sette_bello": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "primiera": {
+                  "numerator": 41,
+                  "denominator": 84
+                },
+                "previous_score": {
+                  "numerator": 0,
+                  "denominator": 1
+                },
+                "total": {
+                  "numerator": 557,
+                  "denominator": 840
+                }
+              },
+              "player_scopa_delta": 0,
+              "opponent_scopa_delta": 0,
+              "primiera_value": 84,
+              "opponent_primiera_value": 41,
+              "primiera_eligible": true,
+              "opponent_primiera_eligible": false,
+              "sette_bello_owned": true,
+              "opponent_sette_bello_owned": false,
+              "sette_bello_points": 1,
+              "opponent_sette_bello_points": 0,
+              "captured_cards": 34,
+              "opponent_captured_cards": 3
+            }
+          ]
+        }
+      ],
+      "recommended_move": {
+        "played_card": {
+          "id": "coppe:6",
+          "suit": "coppe",
+          "rank": 6,
+          "value": 6
+        },
+        "captured_cards": [],
+        "actor": "player",
+        "capture_type": "none",
+        "creates_scopa": false,
+        "immediate_score": 0,
+        "resulting_state": {
+          "deck": [
+            {
+              "id": "denari:1",
+              "suit": "denari",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "denari:2",
+              "suit": "denari",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "denari:3",
+              "suit": "denari",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "denari:4",
+              "suit": "denari",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "denari:5",
+              "suit": "denari",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "denari:6",
+              "suit": "denari",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "denari:7",
+              "suit": "denari",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "denari:8",
+              "suit": "denari",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "denari:9",
+              "suit": "denari",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "denari:10",
+              "suit": "denari",
+              "rank": 10,
+              "value": 10
+            },
+            {
+              "id": "coppe:1",
+              "suit": "coppe",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "coppe:2",
+              "suit": "coppe",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "coppe:3",
+              "suit": "coppe",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "coppe:4",
+              "suit": "coppe",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "coppe:5",
+              "suit": "coppe",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "coppe:6",
+              "suit": "coppe",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "coppe:7",
+              "suit": "coppe",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "coppe:8",
+              "suit": "coppe",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "coppe:9",
+              "suit": "coppe",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "coppe:10",
+              "suit": "coppe",
+              "rank": 10,
+              "value": 10
+            },
+            {
+              "id": "spade:1",
+              "suit": "spade",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "spade:2",
+              "suit": "spade",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "spade:3",
+              "suit": "spade",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "spade:4",
+              "suit": "spade",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "spade:5",
+              "suit": "spade",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "spade:6",
+              "suit": "spade",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "spade:7",
+              "suit": "spade",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "spade:8",
+              "suit": "spade",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "spade:9",
+              "suit": "spade",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "spade:10",
+              "suit": "spade",
+              "rank": 10,
+              "value": 10
+            },
+            {
+              "id": "bastoni:1",
+              "suit": "bastoni",
+              "rank": 1,
+              "value": 1
+            },
+            {
+              "id": "bastoni:2",
+              "suit": "bastoni",
+              "rank": 2,
+              "value": 2
+            },
+            {
+              "id": "bastoni:3",
+              "suit": "bastoni",
+              "rank": 3,
+              "value": 3
+            },
+            {
+              "id": "bastoni:4",
+              "suit": "bastoni",
+              "rank": 4,
+              "value": 4
+            },
+            {
+              "id": "bastoni:5",
+              "suit": "bastoni",
+              "rank": 5,
+              "value": 5
+            },
+            {
+              "id": "bastoni:6",
+              "suit": "bastoni",
+              "rank": 6,
+              "value": 6
+            },
+            {
+              "id": "bastoni:7",
+              "suit": "bastoni",
+              "rank": 7,
+              "value": 7
+            },
+            {
+              "id": "bastoni:8",
+              "suit": "bastoni",
+              "rank": 8,
+              "value": 8
+            },
+            {
+              "id": "bastoni:9",
+              "suit": "bastoni",
+              "rank": 9,
+              "value": 9
+            },
+            {
+              "id": "bastoni:10",
+              "suit": "bastoni",
+              "rank": 10,
+              "value": 10
+            }
+          ],
+          "table_cards": [
+            "denari:2",
+            "denari:3",
+            "coppe:6"
+          ],
+          "player_hand": [
+            "coppe:4"
+          ],
+          "opponent_known_cards": [],
+          "played_cards": [
+            "coppe:6"
+          ],
+          "captured_cards": {
+            "player": [
+              "denari:1",
+              "denari:4",
+              "denari:5",
+              "denari:6",
+              "denari:7",
+              "denari:8",
+              "denari:9",
+              "denari:10",
+              "coppe:1",
+              "coppe:2",
+              "coppe:3",
+              "coppe:5",
+              "coppe:7",
+              "coppe:8",
+              "coppe:9",
+              "coppe:10",
+              "spade:1",
+              "spade:2",
+              "spade:3",
+              "spade:4",
+              "spade:5",
+              "spade:6",
+              "spade:7",
+              "spade:8",
+              "spade:10",
+              "bastoni:1",
+              "bastoni:2",
+              "bastoni:3",
+              "bastoni:4",
+              "bastoni:5",
+              "bastoni:6",
+              "bastoni:7",
+              "bastoni:8",
+              "bastoni:9"
+            ],
+            "opponent": []
+          },
+          "current_player": "opponent",
+          "turn_number": 1,
+          "round_number": 1,
+          "player_score": 0,
+          "opponent_score": 0,
+          "scopa_count": {
+            "player": 0,
+            "opponent": 0
+          },
+          "game_history": [
+            {
+              "turn_number": 1,
+              "actor": "player",
+              "played_card": "coppe:6",
+              "captured_cards": []
+            }
+          ],
+          "opponent_hand_size": 1,
+          "draw_pile_size": 0,
+          "last_capture_player": "player"
+        }
+      },
+      "expected_value": {
+        "numerator": 1115,
+        "denominator": 336
+      },
+      "scopa_probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "primiera_value": {
+        "numerator": 84,
+        "denominator": 1
+      },
+      "sette_bello_value": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "opponent_expected_value": {
+        "numerator": 557,
+        "denominator": 1680
+      },
+      "probabilities": {
+        "method": "exact",
+        "exact": true,
+        "seed": null,
+        "sample_count": null,
+        "world_count": 2,
+        "known_cards": [
+          "bastoni:1",
+          "bastoni:2",
+          "bastoni:3",
+          "bastoni:4",
+          "bastoni:5",
+          "bastoni:6",
+          "bastoni:7",
+          "bastoni:8",
+          "bastoni:9",
+          "coppe:1",
+          "coppe:10",
+          "coppe:2",
+          "coppe:3",
+          "coppe:4",
+          "coppe:5",
+          "coppe:6",
+          "coppe:7",
+          "coppe:8",
+          "coppe:9",
+          "denari:1",
+          "denari:10",
+          "denari:2",
+          "denari:3",
+          "denari:4",
+          "denari:5",
+          "denari:6",
+          "denari:7",
+          "denari:8",
+          "denari:9",
+          "spade:1",
+          "spade:10",
+          "spade:2",
+          "spade:3",
+          "spade:4",
+          "spade:5",
+          "spade:6",
+          "spade:7",
+          "spade:8"
+        ],
+        "unknown_cards": [
+          "bastoni:10",
+          "spade:9"
+        ]
+      },
+      "search_depth": 2,
+      "reached_depth": 2,
+      "explored_states": 7,
+      "calculation_time_seconds": 0.009505400004854891
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/api/games/b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d/simulate",
+    "status": 200,
+    "request": {
+      "iterations": 100,
+      "seed": 123,
+      "max_depth": 2,
+      "workers": 2,
+      "move": {
+        "played_card": "coppe:6",
+        "captured_cards": []
+      }
+    },
+    "response": {
+      "game_id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+      "state_revision": 2,
+      "iterations": 100,
+      "seed": 123,
+      "max_depth": 2,
+      "reached_depth": 2,
+      "player_policy": "greedy",
+      "means": [
+        {
+          "name": "expected_value",
+          "samples": 100,
+          "mean": {
+            "numerator": 280421,
+            "denominator": 84000
+          },
+          "sample_variance": {
+            "numerator": 772830259,
+            "denominator": 6985440000
+          },
+          "standard_error": 0.03326175617047044,
+          "confidence": 0.95,
+          "confidence_interval": [
+            3.2731533939385633,
+            3.403537082251913
+          ],
+          "hoeffding_error_bound": 1.629721818888743,
+          "hoeffding_interval": [
+            1.708623419206495,
+            4.9680670569839815
+          ]
+        },
+        {
+          "name": "player_expected_value",
+          "samples": 100,
+          "mean": {
+            "numerator": 73,
+            "denominator": 20
+          },
+          "sample_variance": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            3.65,
+            3.65
+          ],
+          "hoeffding_error_bound": 0.8148609094443715,
+          "hoeffding_interval": [
+            2.8351390905556286,
+            4.464860909444371
+          ]
+        },
+        {
+          "name": "opponent_expected_value",
+          "samples": 100,
+          "mean": {
+            "numerator": 26179,
+            "denominator": 84000
+          },
+          "sample_variance": {
+            "numerator": 772830259,
+            "denominator": 6985440000
+          },
+          "standard_error": 0.03326175617047044,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.24646291774808693,
+            0.37684660606143683
+          ],
+          "hoeffding_error_bound": 0.8148609094443715,
+          "hoeffding_interval": [
+            0.0,
+            1.1265156713491333
+          ]
+        },
+        {
+          "name": "primiera_value",
+          "samples": 100,
+          "mean": {
+            "numerator": 84,
+            "denominator": 1
+          },
+          "sample_variance": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            84.0,
+            84.0
+          ],
+          "hoeffding_error_bound": 11.408052732221202,
+          "hoeffding_interval": [
+            72.59194726777879,
+            84.0
+          ]
+        },
+        {
+          "name": "opponent_primiera_value",
+          "samples": 100,
+          "mean": {
+            "numerator": 1927,
+            "denominator": 100
+          },
+          "sample_variance": {
+            "numerator": 4187371,
+            "denominator": 9900
+          },
+          "standard_error": 2.056615587991027,
+          "confidence": 0.95,
+          "confidence_interval": [
+            15.23910751749392,
+            23.30089248250608
+          ],
+          "hoeffding_error_bound": 11.408052732221202,
+          "hoeffding_interval": [
+            7.861947267778797,
+            30.678052732221204
+          ]
+        },
+        {
+          "name": "captured_cards",
+          "samples": 100,
+          "mean": {
+            "numerator": 34,
+            "denominator": 1
+          },
+          "sample_variance": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            34.0,
+            34.0
+          ],
+          "hoeffding_error_bound": 5.432406062962477,
+          "hoeffding_interval": [
+            28.567593937037522,
+            39.43240606296248
+          ]
+        },
+        {
+          "name": "opponent_captured_cards",
+          "samples": 100,
+          "mean": {
+            "numerator": 141,
+            "denominator": 100
+          },
+          "sample_variance": {
+            "numerator": 2491,
+            "denominator": 1100
+          },
+          "standard_error": 0.15048406741397757,
+          "confidence": 0.95,
+          "confidence_interval": [
+            1.1150566476215065,
+            1.7049433523784934
+          ],
+          "hoeffding_error_bound": 5.432406062962477,
+          "hoeffding_interval": [
+            0.0,
+            6.842406062962477
+          ]
+        },
+        {
+          "name": "new_scopa_count",
+          "samples": 100,
+          "mean": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "sample_variance": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.0,
+            0.0
+          ],
+          "hoeffding_error_bound": 0.27162030314812385,
+          "hoeffding_interval": [
+            0.0,
+            0.27162030314812385
+          ]
+        },
+        {
+          "name": "sette_bello_value",
+          "samples": 100,
+          "mean": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "sample_variance": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            1.0,
+            1.0
+          ],
+          "hoeffding_error_bound": 0.13581015157406193,
+          "hoeffding_interval": [
+            0.864189848425938,
+            1.0
+          ]
+        }
+      ],
+      "proportions": [
+        {
+          "name": "player_scopa",
+          "samples": 100,
+          "successes": 0,
+          "probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.0,
+            0.03699349820698566
+          ],
+          "interval_method": "wilson"
+        },
+        {
+          "name": "opponent_scopa",
+          "samples": 100,
+          "successes": 0,
+          "probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.0,
+            0.03699349820698566
+          ],
+          "interval_method": "wilson"
+        },
+        {
+          "name": "sette_bello",
+          "samples": 100,
+          "successes": 100,
+          "probability": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.9630065017930143,
+            1.0
+          ],
+          "interval_method": "wilson"
+        },
+        {
+          "name": "terminal",
+          "samples": 100,
+          "successes": 0,
+          "probability": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "standard_error": 0.0,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.0,
+            0.03699349820698566
+          ],
+          "interval_method": "wilson"
+        }
+      ],
+      "traces": [],
+      "workers": 2,
+      "chunk_size": 128,
+      "calculation_time_seconds": 0.28013600000122096
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/api/games/b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+    "status": 200,
+    "request": null,
+    "response": {
+      "id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+      "revision": 2,
+      "state": {
+        "deck": [
+          {
+            "id": "denari:1",
+            "suit": "denari",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "denari:2",
+            "suit": "denari",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "denari:3",
+            "suit": "denari",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "denari:4",
+            "suit": "denari",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "denari:5",
+            "suit": "denari",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "denari:6",
+            "suit": "denari",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "denari:7",
+            "suit": "denari",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "denari:8",
+            "suit": "denari",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "denari:9",
+            "suit": "denari",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "denari:10",
+            "suit": "denari",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "coppe:1",
+            "suit": "coppe",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "coppe:2",
+            "suit": "coppe",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "coppe:3",
+            "suit": "coppe",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "coppe:4",
+            "suit": "coppe",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "coppe:5",
+            "suit": "coppe",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "coppe:6",
+            "suit": "coppe",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "coppe:7",
+            "suit": "coppe",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "coppe:8",
+            "suit": "coppe",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "coppe:9",
+            "suit": "coppe",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "coppe:10",
+            "suit": "coppe",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "spade:1",
+            "suit": "spade",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "spade:2",
+            "suit": "spade",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "spade:3",
+            "suit": "spade",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "spade:4",
+            "suit": "spade",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "spade:5",
+            "suit": "spade",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "spade:6",
+            "suit": "spade",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "spade:7",
+            "suit": "spade",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "spade:8",
+            "suit": "spade",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "spade:9",
+            "suit": "spade",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "spade:10",
+            "suit": "spade",
+            "rank": 10,
+            "value": 10
+          },
+          {
+            "id": "bastoni:1",
+            "suit": "bastoni",
+            "rank": 1,
+            "value": 1
+          },
+          {
+            "id": "bastoni:2",
+            "suit": "bastoni",
+            "rank": 2,
+            "value": 2
+          },
+          {
+            "id": "bastoni:3",
+            "suit": "bastoni",
+            "rank": 3,
+            "value": 3
+          },
+          {
+            "id": "bastoni:4",
+            "suit": "bastoni",
+            "rank": 4,
+            "value": 4
+          },
+          {
+            "id": "bastoni:5",
+            "suit": "bastoni",
+            "rank": 5,
+            "value": 5
+          },
+          {
+            "id": "bastoni:6",
+            "suit": "bastoni",
+            "rank": 6,
+            "value": 6
+          },
+          {
+            "id": "bastoni:7",
+            "suit": "bastoni",
+            "rank": 7,
+            "value": 7
+          },
+          {
+            "id": "bastoni:8",
+            "suit": "bastoni",
+            "rank": 8,
+            "value": 8
+          },
+          {
+            "id": "bastoni:9",
+            "suit": "bastoni",
+            "rank": 9,
+            "value": 9
+          },
+          {
+            "id": "bastoni:10",
+            "suit": "bastoni",
+            "rank": 10,
+            "value": 10
+          }
+        ],
+        "table_cards": [
+          "denari:2",
+          "denari:3"
+        ],
+        "player_hand": [
+          "coppe:4",
+          "coppe:6"
+        ],
+        "opponent_known_cards": [],
+        "played_cards": [],
+        "captured_cards": {
+          "player": [
+            "denari:1",
+            "denari:4",
+            "denari:5",
+            "denari:6",
+            "denari:7",
+            "denari:8",
+            "denari:9",
+            "denari:10",
+            "coppe:1",
+            "coppe:2",
+            "coppe:3",
+            "coppe:5",
+            "coppe:7",
+            "coppe:8",
+            "coppe:9",
+            "coppe:10",
+            "spade:1",
+            "spade:2",
+            "spade:3",
+            "spade:4",
+            "spade:5",
+            "spade:6",
+            "spade:7",
+            "spade:8",
+            "spade:10",
+            "bastoni:1",
+            "bastoni:2",
+            "bastoni:3",
+            "bastoni:4",
+            "bastoni:5",
+            "bastoni:6",
+            "bastoni:7",
+            "bastoni:8",
+            "bastoni:9"
+          ],
+          "opponent": []
+        },
+        "current_player": "player",
+        "turn_number": 0,
+        "round_number": 1,
+        "player_score": 0,
+        "opponent_score": 0,
+        "scopa_count": {
+          "player": 0,
+          "opponent": 0
+        },
+        "game_history": [],
+        "opponent_hand_size": 1,
+        "draw_pile_size": 0,
+        "last_capture_player": "player"
+      },
+      "has_analysis": true,
+      "has_simulation": true
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "game_id": "b5d3abb3-4535-4ff4-b3ce-84ed3cc5b50d",
+  "state_revision": 2,
+  "base_url": "http://127.0.0.1:8010",
+  "all_six_endpoints_passed": true,
+  "recommended_move_matches": true,
+  "resulting_state_matches": true,
+  "all_move_metrics_match": true,
+  "api_played_card": "coppe:6",
+  "engine_played_card": "coppe:6",
+  "expected_value": "1115/336",
+  "legal_moves": 2
+}

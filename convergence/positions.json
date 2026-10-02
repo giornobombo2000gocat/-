@@ -1,0 +1,600 @@
+[
+  {
+    "name": "risk-9",
+    "player_hand": [
+      "coppe:4",
+      "coppe:6"
+    ],
+    "table": [
+      "denari:2",
+      "denari:3"
+    ],
+    "unknown": [
+      "spade:9",
+      "bastoni:10"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 0,
+    "captured_player": [
+      "denari:1",
+      "denari:4",
+      "denari:5",
+      "denari:6",
+      "denari:7",
+      "denari:8",
+      "denari:9",
+      "denari:10",
+      "coppe:1",
+      "coppe:2",
+      "coppe:3",
+      "coppe:5",
+      "coppe:7",
+      "coppe:8",
+      "coppe:9",
+      "coppe:10",
+      "spade:1",
+      "spade:2",
+      "spade:3",
+      "spade:4",
+      "spade:5",
+      "spade:6",
+      "spade:7",
+      "spade:8",
+      "spade:10",
+      "bastoni:1",
+      "bastoni:2",
+      "bastoni:3",
+      "bastoni:4",
+      "bastoni:5",
+      "bastoni:6",
+      "bastoni:7",
+      "bastoni:8",
+      "bastoni:9"
+    ],
+    "captured_opponent": [],
+    "last_capture_player": "player",
+    "played": "coppe:4",
+    "capture": [],
+    "depth": 2
+  },
+  {
+    "name": "avoid-9",
+    "player_hand": [
+      "coppe:4",
+      "coppe:6"
+    ],
+    "table": [
+      "denari:2",
+      "denari:3"
+    ],
+    "unknown": [
+      "spade:9",
+      "bastoni:10"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 0,
+    "captured_player": [
+      "denari:1",
+      "denari:5",
+      "denari:7",
+      "denari:9",
+      "coppe:1",
+      "coppe:3",
+      "coppe:7",
+      "coppe:9",
+      "spade:1",
+      "spade:3",
+      "spade:5",
+      "spade:7",
+      "spade:10",
+      "bastoni:2",
+      "bastoni:4",
+      "bastoni:6",
+      "bastoni:8"
+    ],
+    "captured_opponent": [
+      "denari:4",
+      "denari:6",
+      "denari:8",
+      "denari:10",
+      "coppe:2",
+      "coppe:5",
+      "coppe:8",
+      "coppe:10",
+      "spade:2",
+      "spade:4",
+      "spade:6",
+      "spade:8",
+      "bastoni:1",
+      "bastoni:3",
+      "bastoni:5",
+      "bastoni:7",
+      "bastoni:9"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:6",
+    "capture": [],
+    "depth": 2
+  },
+  {
+    "name": "capture-5",
+    "player_hand": [
+      "coppe:5",
+      "coppe:8"
+    ],
+    "table": [
+      "denari:2",
+      "spade:3"
+    ],
+    "unknown": [
+      "denari:7",
+      "spade:10",
+      "bastoni:8"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 0,
+    "captured_player": [
+      "denari:1",
+      "denari:4",
+      "denari:6",
+      "denari:9",
+      "coppe:1",
+      "coppe:3",
+      "coppe:6",
+      "coppe:9",
+      "spade:1",
+      "spade:4",
+      "spade:6",
+      "spade:8",
+      "bastoni:1",
+      "bastoni:3",
+      "bastoni:5",
+      "bastoni:7",
+      "bastoni:10"
+    ],
+    "captured_opponent": [
+      "denari:3",
+      "denari:5",
+      "denari:8",
+      "denari:10",
+      "coppe:2",
+      "coppe:4",
+      "coppe:7",
+      "coppe:10",
+      "spade:2",
+      "spade:5",
+      "spade:7",
+      "spade:9",
+      "bastoni:2",
+      "bastoni:4",
+      "bastoni:6",
+      "bastoni:9"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:5",
+    "capture": [
+      "denari:2",
+      "spade:3"
+    ],
+    "depth": 2
+  },
+  {
+    "name": "sette-capture",
+    "player_hand": [
+      "coppe:8",
+      "coppe:4"
+    ],
+    "table": [
+      "denari:7",
+      "spade:1"
+    ],
+    "unknown": [
+      "denari:10",
+      "spade:4",
+      "bastoni:2"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 0,
+    "captured_player": [
+      "denari:1",
+      "denari:3",
+      "denari:5",
+      "denari:8",
+      "coppe:1",
+      "coppe:3",
+      "coppe:6",
+      "coppe:9",
+      "spade:2",
+      "spade:5",
+      "spade:7",
+      "spade:9",
+      "bastoni:1",
+      "bastoni:4",
+      "bastoni:6",
+      "bastoni:8",
+      "bastoni:10"
+    ],
+    "captured_opponent": [
+      "denari:2",
+      "denari:4",
+      "denari:6",
+      "denari:9",
+      "coppe:2",
+      "coppe:5",
+      "coppe:7",
+      "coppe:10",
+      "spade:3",
+      "spade:6",
+      "spade:8",
+      "spade:10",
+      "bastoni:3",
+      "bastoni:5",
+      "bastoni:7",
+      "bastoni:9"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:8",
+    "capture": [
+      "denari:7",
+      "spade:1"
+    ],
+    "depth": 2
+  },
+  {
+    "name": "single-priority",
+    "player_hand": [
+      "coppe:7",
+      "coppe:9"
+    ],
+    "table": [
+      "denari:7",
+      "spade:2",
+      "bastoni:5"
+    ],
+    "unknown": [
+      "denari:2",
+      "spade:5",
+      "bastoni:9"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 0,
+    "captured_player": [
+      "denari:1",
+      "denari:4",
+      "denari:6",
+      "denari:9",
+      "coppe:1",
+      "coppe:3",
+      "coppe:5",
+      "coppe:8",
+      "spade:1",
+      "spade:4",
+      "spade:7",
+      "spade:9",
+      "bastoni:1",
+      "bastoni:3",
+      "bastoni:6",
+      "bastoni:8"
+    ],
+    "captured_opponent": [
+      "denari:3",
+      "denari:5",
+      "denari:8",
+      "denari:10",
+      "coppe:2",
+      "coppe:4",
+      "coppe:6",
+      "coppe:10",
+      "spade:3",
+      "spade:6",
+      "spade:8",
+      "spade:10",
+      "bastoni:2",
+      "bastoni:4",
+      "bastoni:7",
+      "bastoni:10"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:7",
+    "capture": [
+      "denari:7"
+    ],
+    "depth": 2
+  },
+  {
+    "name": "three-captures",
+    "player_hand": [
+      "coppe:8",
+      "coppe:10"
+    ],
+    "table": [
+      "denari:1",
+      "spade:2",
+      "bastoni:3",
+      "denari:5",
+      "spade:7"
+    ],
+    "unknown": [
+      "denari:9",
+      "spade:10",
+      "bastoni:8"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 0,
+    "captured_player": [
+      "denari:2",
+      "denari:4",
+      "denari:7",
+      "denari:10",
+      "coppe:2",
+      "coppe:4",
+      "coppe:6",
+      "coppe:9",
+      "spade:3",
+      "spade:5",
+      "spade:8",
+      "bastoni:1",
+      "bastoni:4",
+      "bastoni:6",
+      "bastoni:9"
+    ],
+    "captured_opponent": [
+      "denari:3",
+      "denari:6",
+      "denari:8",
+      "coppe:1",
+      "coppe:3",
+      "coppe:5",
+      "coppe:7",
+      "spade:1",
+      "spade:4",
+      "spade:6",
+      "spade:9",
+      "bastoni:2",
+      "bastoni:5",
+      "bastoni:7",
+      "bastoni:10"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:8",
+    "capture": [
+      "bastoni:3",
+      "denari:5"
+    ],
+    "depth": 2
+  },
+  {
+    "name": "two-card-opponent",
+    "player_hand": [
+      "coppe:4",
+      "coppe:8"
+    ],
+    "table": [
+      "denari:2",
+      "spade:3"
+    ],
+    "unknown": [
+      "denari:7",
+      "spade:10",
+      "bastoni:5",
+      "bastoni:9"
+    ],
+    "opponent_hand_size": 2,
+    "draw_pile_size": 0,
+    "captured_player": [
+      "denari:1",
+      "denari:4",
+      "denari:6",
+      "denari:9",
+      "coppe:1",
+      "coppe:3",
+      "coppe:6",
+      "coppe:9",
+      "spade:1",
+      "spade:4",
+      "spade:6",
+      "spade:8",
+      "bastoni:1",
+      "bastoni:3",
+      "bastoni:6",
+      "bastoni:8"
+    ],
+    "captured_opponent": [
+      "denari:3",
+      "denari:5",
+      "denari:8",
+      "denari:10",
+      "coppe:2",
+      "coppe:5",
+      "coppe:7",
+      "coppe:10",
+      "spade:2",
+      "spade:5",
+      "spade:7",
+      "spade:9",
+      "bastoni:2",
+      "bastoni:4",
+      "bastoni:7",
+      "bastoni:10"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:4",
+    "capture": [],
+    "depth": 2
+  },
+  {
+    "name": "future-scopa",
+    "player_hand": [
+      "coppe:4",
+      "coppe:9"
+    ],
+    "table": [],
+    "unknown": [
+      "denari:3",
+      "denari:5",
+      "spade:6",
+      "bastoni:2"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 2,
+    "captured_player": [
+      "denari:1",
+      "denari:2",
+      "denari:4",
+      "denari:6",
+      "denari:7",
+      "denari:8",
+      "denari:9",
+      "denari:10",
+      "coppe:1",
+      "coppe:2",
+      "coppe:3",
+      "coppe:5",
+      "coppe:6",
+      "coppe:7",
+      "coppe:8",
+      "coppe:10",
+      "spade:1",
+      "spade:2",
+      "spade:3",
+      "spade:4",
+      "spade:5",
+      "spade:7",
+      "spade:8",
+      "spade:9",
+      "spade:10",
+      "bastoni:1",
+      "bastoni:3",
+      "bastoni:4",
+      "bastoni:5",
+      "bastoni:6",
+      "bastoni:7",
+      "bastoni:8",
+      "bastoni:9",
+      "bastoni:10"
+    ],
+    "captured_opponent": [],
+    "last_capture_player": "player",
+    "played": "coppe:4",
+    "capture": [],
+    "depth": 3
+  },
+  {
+    "name": "future-sette",
+    "player_hand": [
+      "coppe:3",
+      "coppe:7"
+    ],
+    "table": [
+      "spade:1"
+    ],
+    "unknown": [
+      "denari:2",
+      "denari:7",
+      "spade:6",
+      "bastoni:4"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 2,
+    "captured_player": [
+      "denari:1",
+      "denari:4",
+      "denari:6",
+      "denari:9",
+      "coppe:1",
+      "coppe:4",
+      "coppe:6",
+      "coppe:9",
+      "spade:2",
+      "spade:4",
+      "spade:7",
+      "spade:9",
+      "bastoni:1",
+      "bastoni:3",
+      "bastoni:6",
+      "bastoni:8",
+      "bastoni:10"
+    ],
+    "captured_opponent": [
+      "denari:3",
+      "denari:5",
+      "denari:8",
+      "denari:10",
+      "coppe:2",
+      "coppe:5",
+      "coppe:8",
+      "coppe:10",
+      "spade:3",
+      "spade:5",
+      "spade:8",
+      "spade:10",
+      "bastoni:2",
+      "bastoni:5",
+      "bastoni:7",
+      "bastoni:9"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:3",
+    "capture": [],
+    "depth": 3
+  },
+  {
+    "name": "new-deal",
+    "player_hand": [
+      "coppe:4"
+    ],
+    "table": [
+      "denari:2"
+    ],
+    "unknown": [
+      "denari:7",
+      "spade:6",
+      "bastoni:8"
+    ],
+    "opponent_hand_size": 1,
+    "draw_pile_size": 2,
+    "captured_player": [
+      "denari:1",
+      "denari:4",
+      "denari:6",
+      "denari:9",
+      "coppe:1",
+      "coppe:3",
+      "coppe:6",
+      "coppe:8",
+      "coppe:10",
+      "spade:2",
+      "spade:4",
+      "spade:7",
+      "spade:9",
+      "bastoni:1",
+      "bastoni:3",
+      "bastoni:5",
+      "bastoni:7",
+      "bastoni:10"
+    ],
+    "captured_opponent": [
+      "denari:3",
+      "denari:5",
+      "denari:8",
+      "denari:10",
+      "coppe:2",
+      "coppe:5",
+      "coppe:7",
+      "coppe:9",
+      "spade:1",
+      "spade:3",
+      "spade:5",
+      "spade:8",
+      "spade:10",
+      "bastoni:2",
+      "bastoni:4",
+      "bastoni:6",
+      "bastoni:9"
+    ],
+    "last_capture_player": "player",
+    "played": "coppe:4",
+    "capture": [],
+    "depth": 3
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "games": 200,
+  "seed": 20261001,
+  "players": 4,
+  "software": "multiplayer depth-one public heuristic; own utility minus strongest rival",
+  "opponents": "3 independent uniform legal-move policies; no team",
+  "definition": "one complete 40-card round; unique first place is win; shared first is draw; any lower place is loss",
+  "nested_sample": true,
+  "win": 85,
+  "loss": 85,
+  "draw": 30,
+  "win_rate": 0.425,
+  "win_rate_ci95": [
+    0.3585361254351385,
+    0.49429067352145145
+  ],
+  "mean_points": [
+    2.01,
+    0.72,
+    0.775,
+    0.94
+  ],
+  "starter_counts": [
+    50,
+    50,
+    50,
+    50
+  ]
+}

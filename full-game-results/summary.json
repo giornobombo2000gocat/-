@@ -1,0 +1,21 @@
+{
+  "games": 10000,
+  "seed": 20261001,
+  "workers": 4,
+  "game_definition": "one complete 40-card round; all initial tables accepted",
+  "software": "DecisionEngine, depth=1, default evaluation weights; no private cards",
+  "opponent": "uniform random legal move",
+  "starters": "alternating, player starts even indices",
+  "win": 6625,
+  "loss": 2274,
+  "draw": 1101,
+  "win_rate": 0.6625,
+  "decisive_win_rate": 0.7444656703000337,
+  "win_rate_ci95": [
+    0.6531713426911582,
+    0.6717038578383719
+  ],
+  "mean_player_points": 3.1136,
+  "mean_opponent_points": 1.4967,
+  "elapsed_seconds": 242.33057689999987
+}

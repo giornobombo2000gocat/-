@@ -1,0 +1,27 @@
+{
+  "games": 500,
+  "seed": 20261001,
+  "players": 3,
+  "software": "three-player depth-one public heuristic; own utility minus strongest rival",
+  "opponents": "two independent uniform legal-move policies; no team",
+  "definition": "one complete 40-card round; unique first place is win; shared first is draw; any lower place is loss",
+  "nested_sample": true,
+  "win": 236,
+  "loss": 191,
+  "draw": 73,
+  "win_rate": 0.472,
+  "win_rate_ci95": [
+    0.42862273473006285,
+    0.5158042283357841
+  ],
+  "mean_points": [
+    2.266,
+    1.086,
+    1.192
+  ],
+  "starter_counts": [
+    167,
+    167,
+    166
+  ]
+}

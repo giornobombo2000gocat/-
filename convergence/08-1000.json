@@ -1,0 +1,283 @@
+{
+  "iterations": 1000,
+  "seed": 123,
+  "max_depth": 3,
+  "reached_depth": 3,
+  "player_policy": "greedy",
+  "means": [
+    {
+      "name": "expected_value",
+      "samples": 1000,
+      "mean": {
+        "numerator": 78593,
+        "denominator": 20000
+      },
+      "sample_variance": {
+        "numerator": 33384617,
+        "denominator": 133200000
+      },
+      "standard_error": 0.015831464327811334,
+      "confidence": 0.95,
+      "confidence_interval": [
+        3.898620900094959,
+        3.960679099905041
+      ],
+      "hoeffding_error_bound": 0.6012571716854325,
+      "hoeffding_interval": [
+        3.3283928283145676,
+        4.530907171685433
+      ]
+    },
+    {
+      "name": "player_expected_value",
+      "samples": 1000,
+      "mean": {
+        "numerator": 78593,
+        "denominator": 20000
+      },
+      "sample_variance": {
+        "numerator": 33384617,
+        "denominator": 133200000
+      },
+      "standard_error": 0.015831464327811334,
+      "confidence": 0.95,
+      "confidence_interval": [
+        3.898620900094959,
+        3.960679099905041
+      ],
+      "hoeffding_error_bound": 0.30062858584271623,
+      "hoeffding_interval": [
+        3.629021414157284,
+        4.230278585842717
+      ]
+    },
+    {
+      "name": "opponent_expected_value",
+      "samples": 1000,
+      "mean": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "sample_variance": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.0,
+        0.0
+      ],
+      "hoeffding_error_bound": 0.30062858584271623,
+      "hoeffding_interval": [
+        0.0,
+        0.30062858584271623
+      ]
+    },
+    {
+      "name": "primiera_value",
+      "samples": 1000,
+      "mean": {
+        "numerator": 84,
+        "denominator": 1
+      },
+      "sample_variance": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        84.0,
+        84.0
+      ],
+      "hoeffding_error_bound": 3.607543030112595,
+      "hoeffding_interval": [
+        80.3924569698874,
+        84.0
+      ]
+    },
+    {
+      "name": "opponent_primiera_value",
+      "samples": 1000,
+      "mean": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "sample_variance": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.0,
+        0.0
+      ],
+      "hoeffding_error_bound": 3.607543030112595,
+      "hoeffding_interval": [
+        0.0,
+        3.607543030112595
+      ]
+    },
+    {
+      "name": "captured_cards",
+      "samples": 1000,
+      "mean": {
+        "numerator": 17357,
+        "denominator": 500
+      },
+      "sample_variance": {
+        "numerator": 15113,
+        "denominator": 9250
+      },
+      "standard_error": 0.04042075998590128,
+      "confidence": 0.95,
+      "confidence_interval": [
+        34.63477676619989,
+        34.793223233800106
+      ],
+      "hoeffding_error_bound": 1.71787763338695,
+      "hoeffding_interval": [
+        32.99612236661305,
+        36.43187763338695
+      ]
+    },
+    {
+      "name": "opponent_captured_cards",
+      "samples": 1000,
+      "mean": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "sample_variance": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.0,
+        0.0
+      ],
+      "hoeffding_error_bound": 1.71787763338695,
+      "hoeffding_interval": [
+        0.0,
+        1.71787763338695
+      ]
+    },
+    {
+      "name": "new_scopa_count",
+      "samples": 1000,
+      "mean": {
+        "numerator": 119,
+        "denominator": 500
+      },
+      "sample_variance": {
+        "numerator": 15113,
+        "denominator": 83250
+      },
+      "standard_error": 0.013473586661967093,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.21159225539996523,
+        0.26440774460003474
+      ],
+      "hoeffding_error_bound": 0.12884082250402124,
+      "hoeffding_interval": [
+        0.10915917749597875,
+        0.3668408225040212
+      ]
+    },
+    {
+      "name": "sette_bello_value",
+      "samples": 1000,
+      "mean": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "sample_variance": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        1.0,
+        1.0
+      ],
+      "hoeffding_error_bound": 0.04294694083467375,
+      "hoeffding_interval": [
+        0.9570530591653262,
+        1.0
+      ]
+    }
+  ],
+  "proportions": [
+    {
+      "name": "player_scopa",
+      "samples": 1000,
+      "successes": 238,
+      "probability": {
+        "numerator": 119,
+        "denominator": 500
+      },
+      "standard_error": 0.01346684818359515,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.21263955247557198,
+        0.2653656689708589
+      ],
+      "interval_method": "wilson"
+    },
+    {
+      "name": "opponent_scopa",
+      "samples": 1000,
+      "successes": 0,
+      "probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.0,
+        0.0038267584855551217
+      ],
+      "interval_method": "wilson"
+    },
+    {
+      "name": "sette_bello",
+      "samples": 1000,
+      "successes": 1000,
+      "probability": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.996173241514445,
+        1.0
+      ],
+      "interval_method": "wilson"
+    },
+    {
+      "name": "terminal",
+      "samples": 1000,
+      "successes": 0,
+      "probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "standard_error": 0.0,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.0,
+        0.0038267584855551217
+      ],
+      "interval_method": "wilson"
+    }
+  ],
+  "traces": []
+}

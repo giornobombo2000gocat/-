@@ -1,0 +1,71 @@
+{
+  "format_version": "scopa-training-v1",
+  "mode": "offline_training",
+  "variant": "standard_scopa",
+  "snapshot_id": "training-risk-001",
+  "game_status": "active",
+  "player_hand": [
+    "coppe:4",
+    "coppe:6"
+  ],
+  "table_cards": [
+    "denari:2",
+    "denari:3"
+  ],
+  "known_played_cards": [],
+  "opponent_known_cards": [],
+  "captured_cards": {
+    "player": [
+      "denari:1",
+      "denari:4",
+      "denari:5",
+      "denari:6",
+      "denari:7",
+      "denari:8",
+      "denari:9",
+      "denari:10",
+      "coppe:1",
+      "coppe:2",
+      "coppe:3",
+      "coppe:5",
+      "coppe:7",
+      "coppe:8",
+      "coppe:9",
+      "coppe:10",
+      "spade:1",
+      "spade:2",
+      "spade:3",
+      "spade:4",
+      "spade:5",
+      "spade:6",
+      "spade:7",
+      "spade:8",
+      "spade:10",
+      "bastoni:1",
+      "bastoni:2",
+      "bastoni:3",
+      "bastoni:4",
+      "bastoni:5",
+      "bastoni:6",
+      "bastoni:7",
+      "bastoni:8",
+      "bastoni:9"
+    ],
+    "opponent": []
+  },
+  "score": {
+    "player": 0,
+    "opponent": 0
+  },
+  "scopa_count": {
+    "player": 0,
+    "opponent": 0
+  },
+  "current_player": "player",
+  "turn_number": 0,
+  "round_number": 1,
+  "opponent_hand_size": 1,
+  "draw_pile_size": 0,
+  "last_capture_player": "player",
+  "game_history": []
+}

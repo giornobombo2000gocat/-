@@ -1,0 +1,645 @@
+{
+  "exact": {
+    "metrics": [
+      [
+        "expected_value",
+        {
+          "numerator": 467,
+          "denominator": 168
+        }
+      ],
+      [
+        "player_expected_value",
+        {
+          "numerator": 73,
+          "denominator": 20
+        }
+      ],
+      [
+        "opponent_expected_value",
+        {
+          "numerator": 731,
+          "denominator": 840
+        }
+      ],
+      [
+        "primiera_value",
+        {
+          "numerator": 84,
+          "denominator": 1
+        }
+      ],
+      [
+        "opponent_primiera_value",
+        {
+          "numerator": 37,
+          "denominator": 2
+        }
+      ],
+      [
+        "captured_cards",
+        {
+          "numerator": 34,
+          "denominator": 1
+        }
+      ],
+      [
+        "opponent_captured_cards",
+        {
+          "numerator": 2,
+          "denominator": 1
+        }
+      ],
+      [
+        "new_scopa_count",
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      [
+        "sette_bello_value",
+        {
+          "numerator": 1,
+          "denominator": 1
+        }
+      ]
+    ],
+    "probabilities": [
+      [
+        "player_scopa",
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ],
+      [
+        "opponent_scopa",
+        {
+          "numerator": 1,
+          "denominator": 2
+        }
+      ],
+      [
+        "sette_bello",
+        {
+          "numerator": 1,
+          "denominator": 1
+        }
+      ],
+      [
+        "terminal",
+        {
+          "numerator": 0,
+          "denominator": 1
+        }
+      ]
+    ],
+    "explored_nodes": 7
+  },
+  "simulation": {
+    "iterations": 5000,
+    "seed": 123,
+    "max_depth": 2,
+    "reached_depth": 2,
+    "player_policy": "greedy",
+    "means": [
+      {
+        "name": "expected_value",
+        "samples": 5000,
+        "mean": {
+          "numerator": 1454989,
+          "denominator": 525000
+        },
+        "sample_variance": {
+          "numerator": 208715528629,
+          "denominator": 275569875000
+        },
+        "standard_error": 0.012307688877440283,
+        "confidence": 0.95,
+        "confidence_interval": [
+          2.7472849921149116,
+          2.795530245980326
+        ],
+        "hoeffding_error_bound": 0.23047746991678095,
+        "hoeffding_interval": [
+          2.540930149130838,
+          3.0018850889644
+        ]
+      },
+      {
+        "name": "player_expected_value",
+        "samples": 5000,
+        "mean": {
+          "numerator": 73,
+          "denominator": 20
+        },
+        "sample_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          3.65,
+          3.65
+        ],
+        "hoeffding_error_bound": 0.11523873495839047,
+        "hoeffding_interval": [
+          3.5347612650416096,
+          3.7652387349583902
+        ]
+      },
+      {
+        "name": "opponent_expected_value",
+        "samples": 5000,
+        "mean": {
+          "numerator": 461261,
+          "denominator": 525000
+        },
+        "sample_variance": {
+          "numerator": 208715528629,
+          "denominator": 275569875000
+        },
+        "standard_error": 0.012307688877440283,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.8544697540196737,
+          0.9027150078850881
+        ],
+        "hoeffding_error_bound": 0.11523873495839047,
+        "hoeffding_interval": [
+          0.7633536459939905,
+          0.9938311159107713
+        ]
+      },
+      {
+        "name": "primiera_value",
+        "samples": 5000,
+        "mean": {
+          "numerator": 84,
+          "denominator": 1
+        },
+        "sample_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          84.0,
+          84.0
+        ],
+        "hoeffding_error_bound": 1.6133422894174667,
+        "hoeffding_interval": [
+          82.38665771058254,
+          84.0
+        ]
+      },
+      {
+        "name": "opponent_primiera_value",
+        "samples": 5000,
+        "mean": {
+          "numerator": 23347,
+          "denominator": 1250
+        },
+        "sample_variance": {
+          "numerator": 1069432682,
+          "denominator": 3124375
+        },
+        "standard_error": 0.2616436185436689,
+        "confidence": 0.95,
+        "confidence_interval": [
+          18.164787930869675,
+          19.19041206913033
+        ],
+        "hoeffding_error_bound": 1.6133422894174667,
+        "hoeffding_interval": [
+          17.064257710582535,
+          20.29094228941747
+        ]
+      },
+      {
+        "name": "captured_cards",
+        "samples": 5000,
+        "mean": {
+          "numerator": 34,
+          "denominator": 1
+        },
+        "sample_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          34.0,
+          34.0
+        ],
+        "hoeffding_error_bound": 0.7682582330559364,
+        "hoeffding_interval": [
+          33.23174176694406,
+          34.76825823305594
+        ]
+      },
+      {
+        "name": "opponent_captured_cards",
+        "samples": 5000,
+        "mean": {
+          "numerator": 1262,
+          "denominator": 625
+        },
+        "sample_variance": {
+          "numerator": 12498848,
+          "denominator": 3124375
+        },
+        "standard_error": 0.028285796599315557,
+        "confidence": 0.95,
+        "confidence_interval": [
+          1.9637608573913161,
+          2.0746391426086843
+        ],
+        "hoeffding_error_bound": 0.7682582330559364,
+        "hoeffding_interval": [
+          1.2509417669440637,
+          2.7874582330559363
+        ]
+      },
+      {
+        "name": "new_scopa_count",
+        "samples": 5000,
+        "mean": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "sample_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0,
+          0.0
+        ],
+        "hoeffding_error_bound": 0.038412911652796825,
+        "hoeffding_interval": [
+          0.0,
+          0.038412911652796825
+        ]
+      },
+      {
+        "name": "sette_bello_value",
+        "samples": 5000,
+        "mean": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "sample_variance": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ],
+        "hoeffding_error_bound": 0.019206455826398412,
+        "hoeffding_interval": [
+          0.9807935441736015,
+          1.0
+        ]
+      }
+    ],
+    "proportions": [
+      {
+        "name": "player_scopa",
+        "samples": 5000,
+        "successes": 0,
+        "probability": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0,
+          0.0007677019450571241
+        ],
+        "interval_method": "wilson"
+      },
+      {
+        "name": "opponent_scopa",
+        "samples": 5000,
+        "successes": 2524,
+        "probability": {
+          "numerator": 631,
+          "denominator": 1250
+        },
+        "standard_error": 0.007070741969553125,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.4909432355177733,
+          0.5186493945435543
+        ],
+        "interval_method": "wilson"
+      },
+      {
+        "name": "sette_bello",
+        "samples": 5000,
+        "successes": 5000,
+        "probability": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.9992322980549431,
+          1.0
+        ],
+        "interval_method": "wilson"
+      },
+      {
+        "name": "terminal",
+        "samples": 5000,
+        "successes": 0,
+        "probability": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "standard_error": 0.0,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0,
+          0.0007677019450571241
+        ],
+        "interval_method": "wilson"
+      }
+    ],
+    "traces": []
+  },
+  "comparisons": [
+    {
+      "name": "expected_value",
+      "exact": {
+        "numerator": 467,
+        "denominator": 168
+      },
+      "monte_carlo": {
+        "numerator": 1454989,
+        "denominator": 525000
+      },
+      "absolute_error": {
+        "numerator": 731,
+        "denominator": 87500
+      },
+      "confidence_interval": [
+        2.7472849921149116,
+        2.795530245980326
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "player_expected_value",
+      "exact": {
+        "numerator": 73,
+        "denominator": 20
+      },
+      "monte_carlo": {
+        "numerator": 73,
+        "denominator": 20
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        3.65,
+        3.65
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "opponent_expected_value",
+      "exact": {
+        "numerator": 731,
+        "denominator": 840
+      },
+      "monte_carlo": {
+        "numerator": 461261,
+        "denominator": 525000
+      },
+      "absolute_error": {
+        "numerator": 731,
+        "denominator": 87500
+      },
+      "confidence_interval": [
+        0.8544697540196737,
+        0.9027150078850881
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "primiera_value",
+      "exact": {
+        "numerator": 84,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 84,
+        "denominator": 1
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        84.0,
+        84.0
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "opponent_primiera_value",
+      "exact": {
+        "numerator": 37,
+        "denominator": 2
+      },
+      "monte_carlo": {
+        "numerator": 23347,
+        "denominator": 1250
+      },
+      "absolute_error": {
+        "numerator": 111,
+        "denominator": 625
+      },
+      "confidence_interval": [
+        18.164787930869675,
+        19.19041206913033
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "captured_cards",
+      "exact": {
+        "numerator": 34,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 34,
+        "denominator": 1
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        34.0,
+        34.0
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "opponent_captured_cards",
+      "exact": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 1262,
+        "denominator": 625
+      },
+      "absolute_error": {
+        "numerator": 12,
+        "denominator": 625
+      },
+      "confidence_interval": [
+        1.9637608573913161,
+        2.0746391426086843
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "new_scopa_count",
+      "exact": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        0.0,
+        0.0
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "sette_bello_value",
+      "exact": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        1.0,
+        1.0
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "player_scopa",
+      "exact": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        0.0,
+        0.0007677019450571241
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "opponent_scopa",
+      "exact": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "monte_carlo": {
+        "numerator": 631,
+        "denominator": 1250
+      },
+      "absolute_error": {
+        "numerator": 3,
+        "denominator": 625
+      },
+      "confidence_interval": [
+        0.4909432355177733,
+        0.5186493945435543
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "sette_bello",
+      "exact": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        0.9992322980549431,
+        1.0
+      ],
+      "exact_inside_interval": true
+    },
+    {
+      "name": "terminal",
+      "exact": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "monte_carlo": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "absolute_error": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "confidence_interval": [
+        0.0,
+        0.0007677019450571241
+      ],
+      "exact_inside_interval": true
+    }
+  ]
+}

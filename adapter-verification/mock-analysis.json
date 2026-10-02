@@ -1,0 +1,575 @@
+{
+  "status": "analyzed",
+  "search_depth": 2,
+  "reached_depth": 2,
+  "probability_method": "exact",
+  "seed": null,
+  "sample_count": null,
+  "recommended_move": {
+    "played_card": "coppe:6",
+    "captured_cards": [],
+    "creates_scopa": false,
+    "resulting_table": [
+      "denari:2",
+      "denari:3",
+      "coppe:6"
+    ]
+  },
+  "expected_value": {
+    "numerator": 1115,
+    "denominator": 336
+  },
+  "scopa_probability": {
+    "numerator": 0,
+    "denominator": 1
+  },
+  "primiera_value": {
+    "numerator": 84,
+    "denominator": 1
+  },
+  "sette_bello_value": {
+    "numerator": 1,
+    "denominator": 1
+  },
+  "opponent_expected_value": {
+    "numerator": 557,
+    "denominator": 1680
+  },
+  "all_moves": [
+    {
+      "move": {
+        "played_card": "coppe:4",
+        "captured_cards": [],
+        "creates_scopa": false,
+        "resulting_table": [
+          "denari:2",
+          "denari:3",
+          "coppe:4"
+        ]
+      },
+      "node_id": 1,
+      "evaluation": {
+        "source": "heuristic",
+        "captured_cards": {
+          "numerator": 17,
+          "denominator": 20
+        },
+        "scopa": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "denari": {
+          "numerator": 4,
+          "denominator": 5
+        },
+        "sette_bello": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "primiera": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "previous_score": {
+          "numerator": 0,
+          "denominator": 1
+        }
+      },
+      "expected_evaluation": {
+        "source": "expected_heuristic",
+        "captured_cards": {
+          "numerator": 4,
+          "denominator": 5
+        },
+        "scopa": {
+          "numerator": -1,
+          "denominator": 2
+        },
+        "denari": {
+          "numerator": 7,
+          "denominator": 10
+        },
+        "sette_bello": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "primiera": {
+          "numerator": 131,
+          "denominator": 168
+        },
+        "previous_score": {
+          "numerator": 0,
+          "denominator": 1
+        }
+      },
+      "expected_value": {
+        "numerator": 467,
+        "denominator": 168
+      },
+      "player_expected_value": {
+        "numerator": 73,
+        "denominator": 20
+      },
+      "opponent_expected_value": {
+        "numerator": 731,
+        "denominator": 840
+      },
+      "scopa_probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "opponent_scopa_probability": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "expected_scopa_count": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "primiera_value": {
+        "numerator": 84,
+        "denominator": 1
+      },
+      "opponent_primiera_value": {
+        "numerator": 37,
+        "denominator": 2
+      },
+      "primiera_eligible_probability": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "sette_bello_value": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "sette_bello_probability": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "expected_captured_cards": {
+        "numerator": 34,
+        "denominator": 1
+      },
+      "terminal_probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "outcomes": [
+        {
+          "node_id": 2,
+          "probability": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "player_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "opponent_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "sette_bello": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "player_scopa_delta": 0,
+          "opponent_scopa_delta": 0,
+          "primiera_value": 84,
+          "opponent_primiera_value": 0,
+          "primiera_eligible": true,
+          "opponent_primiera_eligible": false,
+          "sette_bello_owned": true,
+          "opponent_sette_bello_owned": false,
+          "sette_bello_points": 1,
+          "opponent_sette_bello_points": 0,
+          "captured_cards": 34,
+          "opponent_captured_cards": 0
+        },
+        {
+          "node_id": 3,
+          "probability": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "player_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "opponent_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 1,
+              "denominator": 10
+            },
+            "scopa": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 1,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 37,
+              "denominator": 84
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "player_scopa_delta": 0,
+          "opponent_scopa_delta": 1,
+          "primiera_value": 84,
+          "opponent_primiera_value": 37,
+          "primiera_eligible": true,
+          "opponent_primiera_eligible": false,
+          "sette_bello_owned": true,
+          "opponent_sette_bello_owned": false,
+          "sette_bello_points": 1,
+          "opponent_sette_bello_points": 0,
+          "captured_cards": 34,
+          "opponent_captured_cards": 4
+        }
+      ]
+    },
+    {
+      "move": {
+        "played_card": "coppe:6",
+        "captured_cards": [],
+        "creates_scopa": false,
+        "resulting_table": [
+          "denari:2",
+          "denari:3",
+          "coppe:6"
+        ]
+      },
+      "node_id": 4,
+      "evaluation": {
+        "source": "heuristic",
+        "captured_cards": {
+          "numerator": 17,
+          "denominator": 20
+        },
+        "scopa": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "denari": {
+          "numerator": 4,
+          "denominator": 5
+        },
+        "sette_bello": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "primiera": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "previous_score": {
+          "numerator": 0,
+          "denominator": 1
+        }
+      },
+      "expected_evaluation": {
+        "source": "expected_heuristic",
+        "captured_cards": {
+          "numerator": 13,
+          "denominator": 16
+        },
+        "scopa": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "denari": {
+          "numerator": 3,
+          "denominator": 4
+        },
+        "sette_bello": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "primiera": {
+          "numerator": 127,
+          "denominator": 168
+        },
+        "previous_score": {
+          "numerator": 0,
+          "denominator": 1
+        }
+      },
+      "expected_value": {
+        "numerator": 1115,
+        "denominator": 336
+      },
+      "player_expected_value": {
+        "numerator": 73,
+        "denominator": 20
+      },
+      "opponent_expected_value": {
+        "numerator": 557,
+        "denominator": 1680
+      },
+      "scopa_probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "opponent_scopa_probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "expected_scopa_count": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "primiera_value": {
+        "numerator": 84,
+        "denominator": 1
+      },
+      "opponent_primiera_value": {
+        "numerator": 41,
+        "denominator": 2
+      },
+      "primiera_eligible_probability": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "sette_bello_value": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "sette_bello_probability": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "expected_captured_cards": {
+        "numerator": 34,
+        "denominator": 1
+      },
+      "terminal_probability": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "outcomes": [
+        {
+          "node_id": 5,
+          "probability": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "player_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "opponent_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "sette_bello": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "player_scopa_delta": 0,
+          "opponent_scopa_delta": 0,
+          "primiera_value": 84,
+          "opponent_primiera_value": 0,
+          "primiera_eligible": true,
+          "opponent_primiera_eligible": false,
+          "sette_bello_owned": true,
+          "opponent_sette_bello_owned": false,
+          "sette_bello_points": 1,
+          "opponent_sette_bello_points": 0,
+          "captured_cards": 34,
+          "opponent_captured_cards": 0
+        },
+        {
+          "node_id": 6,
+          "probability": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "player_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 17,
+              "denominator": 20
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 4,
+              "denominator": 5
+            },
+            "sette_bello": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 1,
+              "denominator": 1
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "opponent_evaluation": {
+            "source": "heuristic",
+            "captured_cards": {
+              "numerator": 3,
+              "denominator": 40
+            },
+            "scopa": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "denari": {
+              "numerator": 1,
+              "denominator": 10
+            },
+            "sette_bello": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "primiera": {
+              "numerator": 41,
+              "denominator": 84
+            },
+            "previous_score": {
+              "numerator": 0,
+              "denominator": 1
+            }
+          },
+          "player_scopa_delta": 0,
+          "opponent_scopa_delta": 0,
+          "primiera_value": 84,
+          "opponent_primiera_value": 41,
+          "primiera_eligible": true,
+          "opponent_primiera_eligible": false,
+          "sette_bello_owned": true,
+          "opponent_sette_bello_owned": false,
+          "sette_bello_points": 1,
+          "opponent_sette_bello_points": 0,
+          "captured_cards": 34,
+          "opponent_captured_cards": 3
+        }
+      ]
+    }
+  ],
+  "calculation_time_seconds": 0.009049799999047536
+}
