@@ -1,7 +1,50 @@
+# Python
 __pycache__/
-.pytest_cache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
 .venv/
+venv/
+ENV/
+
+# Environment variables
 .env
 
-node_modules/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Playwright
+playwright-report/
+test-results/
+
+# Debug
+debug/
+screenshots/
+*.png
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

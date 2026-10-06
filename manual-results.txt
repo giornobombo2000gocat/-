@@ -1,8 +1,0 @@
-PASS A: 8 on [1,2,3,5,7]: captures=[(1, 2, 5), (1, 7), (3, 5)]; scopa=[False, False, False]; table_after=[(3, 7), (2, 3, 5), (1, 2, 7)]
-PASS B: single priority, 5 on [2,3,5]: captures=[(5,)]; scopa=[False]; table_after=[(2, 3)]
-PASS C: scopa, 5 on [2,3]: captures=[(2, 3)]; scopa=[True]; table_after=[()]
-PASS D: discard, 4 on [2,3]: captures=[()]; scopa=[False]; table_after=[(2, 3, 4)]
-PASS E: final capture, no scopa: captures=[(2, 3)]; scopa=[False]; table_after=[()]
-PASS F: final discard, leftovers to opponent: captures=[()]; scopa=[False]; table_after=[()]
-PASS G: sum [2,3] rejected because single 5 exists
-ALL 7 MANUAL POSITIONS PASSED

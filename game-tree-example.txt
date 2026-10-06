@@ -1,7 +1,0 @@
-Explored states=5; depth=2; method=exact
-id=0; parent=None; edge=root; event=current state; depth=0; probability=1; evaluation=387/140; value=387/140; table=[]; kind=player
-id=1; parent=0; edge=player_move; event=coppe:4; depth=1; probability=1; evaluation=387/140; value=387/140; table=['coppe:4']; kind=opponent
-id=2; parent=1; edge=opponent_move; event=spade:6; depth=2; probability=1; evaluation=387/140; value=387/140; table=['coppe:4', 'spade:6']; kind=chance
-id=3; parent=2; edge=unknown_card; event=bastoni:8; depth=2; probability=1/2; evaluation=387/140; value=387/140; table=['coppe:4', 'spade:6']; kind=cutoff
-id=4; parent=2; edge=unknown_card; event=denari:7; depth=2; probability=1/2; evaluation=387/140; value=387/140; table=['coppe:4', 'spade:6']; kind=cutoff
-PASS: exact chance weights=1/2 + 1/2; exported to game-tree-example.json
